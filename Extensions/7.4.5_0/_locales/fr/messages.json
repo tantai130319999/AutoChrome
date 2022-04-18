@@ -1,0 +1,554 @@
+{
+   "add_new": {
+      "message": "Ajouter nouveau"
+   },
+   "advanced": {
+      "message": "Avancé"
+   },
+   "alert_msg1": {
+      "message": "Paramètres réinitalisées avec succès"
+   },
+   "alert_msg2": {
+      "message": "Félicitations ! Auto Refresh Plus a été installé avec succès"
+   },
+   "alert_msg3": {
+      "message": "Paramètres sauvegardés avec succès"
+   },
+   "all": {
+      "message": "Tous"
+   },
+   "allow_incognito": {
+      "message": "Permettre en incognito"
+   },
+   "any_change": {
+      "message": "Tout changement"
+   },
+   "any_msg": {
+      "message": "Auto Refresh Plus vous informera de toute modification apportée à ce site web"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "Rafraîchir la page automatiquement grâce à de puissantes fonctions de surveillance de page"
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "Auto Refresh Plus | Surveillance de page"
+   },
+   "as_msg4": {
+      "message": "Auto Refresh Plus lance automatiquement la fonction de rechargement de la page lorsque ces URL s'ouvrent dans votre navigateur. Il ouvre également toutes ces URL lorsque votre navigateur redémarre et commence le rafraîchissement automatique à l'intervalle souhaité."
+   },
+   "as_title": {
+      "message": "URL d'auto-démarrage"
+   },
+   "assign_hotkeys": {
+      "message": "Attribuer des touches de raccourci"
+   },
+   "ast": {
+      "message": "Compte à rebours"
+   },
+   "ast_msg1": {
+      "message": "Une URL par ligne, ex."
+   },
+   "ast_msg2": {
+      "message": "L'auto-démarrage rafraîchit ces URL quand le navigateur redémarre"
+   },
+   "ast_specific_time": {
+      "message": "Sélectionnez le moment spécifique"
+   },
+   "auto_clicker": {
+      "message": "Auto-cliqueur"
+   },
+   "auto_clicker_msg1": {
+      "message": "Auto-cliquer sur le lien"
+   },
+   "auto_clicker_msg2": {
+      "message": "(Si le texte surveillé/regex a un lien)"
+   },
+   "auto_start": {
+      "message": "Auto-démarrage"
+   },
+   "blacklist": {
+      "message": "Liste noire"
+   },
+   "cancel": {
+      "message": "Annuler"
+   },
+   "cancel_timer": {
+      "message": "Annuler le compte à rebours"
+   },
+   "chrome_language": {
+      "description": "language identifier used by Chrome",
+      "message": "fr"
+   },
+   "congratulations": {
+      "message": "Toutes nos félicitations"
+   },
+   "contribution": {
+      "message": "Contribution"
+   },
+   "copyright": {
+      "message": "Tous droits d'auteur réservés"
+   },
+   "countdown": {
+      "message": "Compte à rebours"
+   },
+   "countdown_mode": {
+      "message": "Mode compte à rebours"
+   },
+   "cs_t1": {
+      "message": "Quand l'URL s'ouvre"
+   },
+   "cs_t2": {
+      "message": "A chaque rafraîchissement de page"
+   },
+   "cs_t3": {
+      "message": "Quand le moniteur de page TROUVE le texte cible"
+   },
+   "cs_t4": {
+      "message": "Quand le moniteur de page PERD le texte cible"
+   },
+   "cs_t5": {
+      "message": "Quand tout changement se produit"
+   },
+   "cs_t6": {
+      "message": "Injecter avant le chargement de la page"
+   },
+   "cs_t7": {
+      "message": "Injecter après le chargement de la page"
+   },
+   "custom": {
+      "message": "Personnalisé"
+   },
+   "custom_monitor": {
+      "message": "Surveillance personnalisée"
+   },
+   "custom_scripts": {
+      "message": "Scripts personnalisés"
+   },
+   "date": {
+      "message": "Date"
+   },
+   "deep_source": {
+      "message": "Source profonde"
+   },
+   "default_target_input": {
+      "message": "Plusieurs textes/regex pris en charge, pour ajouter un autre appuyer sur entrée"
+   },
+   "default_target_text": {
+      "message": "Texte cible par défaut"
+   },
+   "default_timerinterval": {
+      "message": "Intervalle de temps par défaut"
+   },
+   "detect_any_change": {
+      "message": "Auto Refresh Plus a détecté un changement sur ce site web"
+   },
+   "detect_any_change_title": {
+      "message": "Surveillance de page"
+   },
+   "dismiss": {
+      "message": "Rejeter"
+   },
+   "donate": {
+      "message": "Faire un don"
+   },
+   "donation": {
+      "message": "Don"
+   },
+   "donation_msg": {
+      "message": "\u003CB>Bonjour de la part de l'équipe Auto Refresh Plus. \u003C/B>\u003Cbr>Si vous trouvez Auto Refresh Plus utile, veuillez envisager de faire un don à l'auteur."
+   },
+   "donation_msg2": {
+      "message": "Je l'ai déjà fait"
+   },
+   "email_alert": {
+      "message": "Alertes par e-mail"
+   },
+   "enable_ri": {
+      "message": "Activer un intervalle aléatoire"
+   },
+   "enable_tf": {
+      "message": "Activer cette option"
+   },
+   "feature_request": {
+      "message": "Demandes d'options"
+   },
+   "find_mtr_msg": {
+      "message": "Chercher le texte du Moniteur dans"
+   },
+   "found": {
+      "message": "Trouvé"
+   },
+   "hard_refresh": {
+      "message": "Rafraîchissement hard"
+   },
+   "hard_refresh_msg": {
+      "message": "(Recharge la page sans s'appuyer sur les données en cache)"
+   },
+   "help_center": {
+      "message": "Centre d'aide"
+   },
+   "home": {
+      "message": "Accueil"
+   },
+   "hotkeys": {
+      "message": "Touches de raccourci"
+   },
+   "hotkeys_msg1": {
+      "message": "Démarrer l'intervalle de temps"
+   },
+   "hotkeys_msg2": {
+      "message": "Démarrer un intervalle aléatoire"
+   },
+   "hotkeys_msg3": {
+      "message": "Démarrer le mode compte à rebours"
+   },
+   "hotkeys_msg4": {
+      "message": "Arrêter l'intervalle"
+   },
+   "hotkeys_msg5": {
+      "message": "Désactiver le son de la notification"
+   },
+   "hotkeys_title": {
+      "message": "Attribuer des touches de raccourci"
+   },
+   "hour": {
+      "message": "Heure"
+   },
+   "howto": {
+      "message": "Comment"
+   },
+   "images": {
+      "message": "Images"
+   },
+   "lost": {
+      "message": "Perdu"
+   },
+   "max": {
+      "message": "Max"
+   },
+   "min": {
+      "message": "Min"
+   },
+   "minute": {
+      "message": "Minute"
+   },
+   "minutes": {
+      "message": "Minutes"
+   },
+   "monitor_full_page": {
+      "message": "Surveiller toute la page"
+   },
+   "never_playsound": {
+      "message": "Ne jamais émettre de son"
+   },
+   "noti_msg": {
+      "message": "Auto Refresh Plus a $action$ votre texte cible",
+      "placeholders": {
+         "action": {
+            "content": "$1",
+            "example": ""
+         }
+      }
+   },
+   "noti_msg_title": {
+      "message": "Le texte cible !"
+   },
+   "ok": {
+      "message": "bien"
+   },
+   "open_link_tab": {
+      "message": "Ouvrir le lien dans un nouvel onglet"
+   },
+   "opt_msg1": {
+      "message": "Rafraîchissement à l'ouverture des URL"
+   },
+   "opt_msg10": {
+      "message": "Lorsqu'une notification arrive, un son court est émis. Le son peut être désactivé ou modifié"
+   },
+   "opt_msg11": {
+      "message": "Durée maximale du son personnalisée à l'arrivée d'une notification"
+   },
+   "opt_msg12": {
+      "message": "Recevoir des notifications par e-mail lorsqu'un site web est modifié en fonction des paramètres de surveillance des pages"
+   },
+   "opt_msg13": {
+      "message": "Exécuter des scripts personnalisés sur la page"
+   },
+   "opt_msg14": {
+      "message": "Si vous aimez jouer avec l'automatisation, le scraping, la modification du comportement par défaut des sites web, et si vous avez des connaissances de base en JavaScript, vous pouvez faire beaucoup de choses ici."
+   },
+   "opt_msg15": {
+      "message": "Quels modèles d'URL sont autorisés"
+   },
+   "opt_msg16": {
+      "message": "Pour mobiliser à la fois à HTTP et HTTPS, il suffit d'écrire exemple.com"
+   },
+   "opt_msg17": {
+      "message": "Pour mobiliser toutes les pages d'un domaine, écrivez exemple.com/*"
+   },
+   "opt_msg18": {
+      "message": "Pour mobiliser toutes les pages d'un domaine et de ses sous-domaines, écrivez *.exemple.com/*"
+   },
+   "opt_msg19": {
+      "message": "Définissez vos raccourcis clavier personnalisés pour les actions d'Auto Refresh Plus"
+   },
+   "opt_msg2": {
+      "message": "Démarrez automatiquement le rafraîchissement lorsque l'une de ces URL s'ouvre"
+   },
+   "opt_msg20": {
+      "message": "Réinitialiser les paramètres d'Auto Refresh Plus"
+   },
+   "opt_msg21": {
+      "message": "\u003Cb>Etes-vous sûr\u003C/b> que vous souhaitez rétablir tous les paramètres d'Auto Refresh Plus à leur valeur par défaut ?"
+   },
+   "opt_msg22": {
+      "message": "Félicitations ! Auto Refresh Plus a été installé avec succès"
+   },
+   "opt_msg3": {
+      "message": "Insérez un ou plusieurs mots-clés ici, et dès qu'ils seront trouvés sur la page web, Auto Refresh Plus commencera à rafraîchir automatiquement la page à l'intervalle par défaut."
+   },
+   "opt_msg4": {
+      "message": "Saisissez une URL spécifique ici pour rafraîchir cette URL, plutôt que l'onglet actuel que vous utilisez. Ainsi, par exemple, si vous enregistrez Google.com dans les paramètres et que vous lancez le rafraîchissement automatique alors que vous êtes sur Yahoo.com, Google.com sera rafraîchi, plutôt que la page que vous êtes en train de regarder."
+   },
+   "opt_msg5": {
+      "message": "Activer le mode compte à rebours"
+   },
+   "opt_msg6": {
+      "message": "Effectuer un rafraîchissement de page sur une page spécifique après un certain temps, le compte à rebours d'Auto Refresh Plus vous permet de le faire. Il suffit d'activer et de définir l'heure, et le compte à rebours commencera. Une fois que le compte à rebours atteint zéro, Auto Refresh Plus recommence à rafraîchir la page aux intervalles par défaut définis."
+   },
+   "opt_msg7": {
+      "message": "Ajout du mode compte à rebours dans la fenêtre popup d'Auto Refresh Plus"
+   },
+   "opt_msg8": {
+      "message": "Ajoutez ici les mots-clés de surveillance par défaut. Vous pouvez également ajouter des mots-clés personnalisés pour chaque site web à partir de la fenêtre contextuelle de l'extension"
+   },
+   "opt_msg9": {
+      "message": "Recevez automatiquement une notification lorsqu'une page web donnée a trouvé ou perdu le mot-clé que vous avez défini"
+   },
+   "options": {
+      "message": "Options"
+   },
+   "other_products": {
+      "message": "Autres produits"
+   },
+   "page_monitor": {
+      "message": "Surveillance de page"
+   },
+   "play_for": {
+      "message": "Emettre pour"
+   },
+   "play_onlyonce": {
+      "message": "Emettre une seule fois"
+   },
+   "play_sound": {
+      "message": "Emettre le son"
+   },
+   "playsound_candidate": {
+      "message": "Emettre le son candidat 1 (1 seconde)"
+   },
+   "playsound_candidate2": {
+      "message": "Emettre le son candidat 2 (6 secondes)"
+   },
+   "playsound_msg1": {
+      "message": "Emettre le son depuis une URL"
+   },
+   "pm_input1": {
+      "message": "Exemple : vendu terminé expiré"
+   },
+   "pm_msg2": {
+      "message": "Emettre jusqu'à ce que je clique sur la boîte de notification"
+   },
+   "pmp": {
+      "message": "Modèle de surveillance de la page"
+   },
+   "pmp_msg1": {
+      "message": "Notification par popup quand il \u003Cb>TROUVE\u003C/b> le texte cible (ou regex)"
+   },
+   "pmp_msg2": {
+      "message": "Notification par popup quand il \u003Cb>PERD\u003C/b> le texte cible (ou regex)"
+   },
+   "predefined": {
+      "message": "Prédéfini"
+   },
+   "predefined_text": {
+      "message": "Texte prédéfini"
+   },
+   "predefined_url": {
+      "message": "URL prédéfinie"
+   },
+   "r_browser": {
+      "message": "Rafraîchir au redémarrage du navigateur"
+   },
+   "random_interval": {
+      "message": "Intervalle aléatoire"
+   },
+   "rate_us": {
+      "message": "Notez-nous"
+   },
+   "ratings": {
+      "message": "Notes"
+   },
+   "ratings_msg": {
+      "message": "Veuillez nous donner cinq étoiles sur la boutique en ligne"
+   },
+   "ratings_msg2": {
+      "message": "Super ! On commence"
+   },
+   "refresh_number": {
+      "message": "Définir le nombre de rafraîchissements"
+   },
+   "refresh_number_msg": {
+      "message": "(Définissez le nombre de fois que vous voulez rafraîchir)"
+   },
+   "reset": {
+      "message": "Réinitialiser les paramètres"
+   },
+   "rpp": {
+      "message": "Rafraîchir une page prédéfinie"
+   },
+   "rpp_body": {
+      "message": "Rafraîchir le contenu de la page prédéfinie"
+   },
+   "rpp_msg1": {
+      "message": "(ex. google.com)"
+   },
+   "rpp_title": {
+      "message": "Rafraîchir une page prédéfinie"
+   },
+   "rpt": {
+      "message": "Rafraîchir un texte prédéfini"
+   },
+   "rpt_body": {
+      "message": "Rafraîchir un contenu textuel prédéfini"
+   },
+   "rpt_input1": {
+      "message": "Plusieurs textes/regex pris en charge, pour ajouter un autre appuyer sur entrée"
+   },
+   "rpt_title": {
+      "message": "Rafraîchir le texte prédéfini"
+   },
+   "save": {
+      "message": "Enregistrer"
+   },
+   "seconds": {
+      "message": "Secondes"
+   },
+   "select_countdown": {
+      "message": "Sélectionner le compte à rebours"
+   },
+   "select_date": {
+      "message": "Sélectionner la date"
+   },
+   "select_time": {
+      "message": "Sélectionner le temps"
+   },
+   "settings": {
+      "message": "Paramètres"
+   },
+   "show_tab": {
+      "message": "Afficher l'onglet"
+   },
+   "sound_length": {
+      "message": "Durée du son"
+   },
+   "source": {
+      "message": "Source"
+   },
+   "source_msg": {
+      "message": "(Trouver dans le texte en ligne dans le code source HTML)"
+   },
+   "specific_timemode": {
+      "message": "Mode de temps spécifique (ex. 01-01-2012 20:10:00)"
+   },
+   "start_msg": {
+      "message": "Démarrer"
+   },
+   "start_timer": {
+      "message": "Démarrer le compte à rebours"
+   },
+   "start_timer_body": {
+      "message": "Démarrer le contenu du compte à rebours"
+   },
+   "start_timer_title": {
+      "message": "Démarrer le compte à rebours"
+   },
+   "stop": {
+      "message": "Arrêter"
+   },
+   "stop_sound": {
+      "message": "Arrêter le son"
+   },
+   "success": {
+      "message": "Paramètres enregistrés avec succès"
+   },
+   "supported_expressions": {
+      "message": "Expressions prises en charge"
+   },
+   "test_play": {
+      "message": "Test"
+   },
+   "ti_msg1": {
+      "message": "Définissez le temps par défaut pour chaque rafraîchissement de page. Vous pouvez sélectionner des intervalles de temps prédéfinis ou saisir votre propre intervalle de temps dans le menu déroulant de l'extension"
+   },
+   "ti_msg2": {
+      "message": "Rend aléatoire l'intervalle de temps de chaque rafraîchissement de page effectué par Auto Refresh Plus. Il vous suffit de choisir une durée minimale et maximale, et l'extension effectuera des rafraîchissements automatiques de la page aux intervalles définis"
+   },
+   "ti_msg3": {
+      "message": "Ajout d'une fonction d'intervalle aléatoire dans la fenêtre popup d'Auto Refresh Plus"
+   },
+   "time": {
+      "message": "Temps"
+   },
+   "time_interval": {
+      "message": "Intervalle de temps"
+   },
+   "timer_mode": {
+      "message": "Mode compte à rebours"
+   },
+   "up_msg1": {
+      "message": "Auto Refresh Plus mise à jour vers la version"
+   },
+   "up_msg2": {
+      "message": "Notification par e-mail dans le backend"
+   },
+   "up_msg3": {
+      "message": "Ajout de la prise en charge du mode texte dans la recherche Page-Monitor"
+   },
+   "up_msg4": {
+      "message": "Décimales Bug dans le temps personnalisé ( Crash ARP )"
+   },
+   "up_msg5": {
+      "message": "Bug de ligne vide dans le démarrage automatique"
+   },
+   "up_msg6": {
+      "message": "Bogue du signe $ dans Page-Monitor"
+   },
+   "up_msg7": {
+      "message": "Bug d'URL de démarrage automatique prédéfini avec page-Monitor"
+   },
+   "up_msg8": {
+      "message": "Bug d'erreur lors de la combinaison de regex avec la fonction AutoClick"
+   },
+   "up_msg9": {
+      "message": "je comprends"
+   },
+   "use_default": {
+      "message": "Utiliser celui par défaut"
+   },
+   "visual": {
+      "message": "Visuel"
+   },
+   "visual_msg": {
+      "message": "(A trouver dans le texte que vous voyez sur l'écran visuel)"
+   },
+   "volume": {
+      "message": "Volume"
+   },
+   "whats_new": {
+      "message": "Quoi de neuf ?"
+   },
+   "whitelist": {
+      "message": "Liste blanche"
+   }
+}

@@ -1,0 +1,33 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "images/128.png",
+         "16": "images/16.png",
+         "32": "images/32.png",
+         "48": "images/48.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "script.js" ],
+      "matches": [ "https://www.youtube.com/*", "https://music.youtube.com/*", "https://m.youtube.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Bypass the annoying 'you still there?' popup message and keep YouTube running nonstop!",
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "48": "images/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh4bbtYxWatreFUGVNsvDZwY2TVgtcI9VyoA9PhjcApRAHCAVU9F5VEwG4XiRlmf61LimMH8ccWKiN2yo90ln28Gy5infFlVOORVEzDEcMQmgawXrskvnf6zaL4LyrQEYWQX6r3VpXVX73VKVOG1maaIYnem9L/Q5UfdX5QQ5/G+J5VDTYUMKGz/29GIIsj3lG7QIt5TjHZZS4XL51Z6Bktl6KFt2Sf6UzfIR/pCzTmNTxqYK1CzeZ2rIgykfweVwb3yqtWC5DbLbxR38WTsGrfoc5oKsWTL1WruLw5FT26zdJwAgfw2TVb58x+e80v7UcnkoanqUFOUKFtLQq2LpFQIDAQAB",
+   "manifest_version": 2,
+   "name": "AutoTube - YouTube nonstop",
+   "permissions": [ "storage", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.7.2"
+}

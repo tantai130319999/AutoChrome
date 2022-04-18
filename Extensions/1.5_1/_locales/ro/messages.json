@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "Setați calitatea video implicită pentru YouTube™, compatibilă cu rezoluția HD (High Definition)"
+   },
+   "name": {
+      "message": "Auto HD/4k/8k pentru YouTube™ - YouTube™ Auto HD"
+   },
+   "popupAutoText": {
+      "description": "Auto",
+      "message": "Automat"
+   },
+   "popupHeader": {
+      "description": "Popup header",
+      "message": "Setați calitatea implicită pentru YouTube™"
+   },
+   "short_name": {
+      "message": "Auto HD"
+   }
+}

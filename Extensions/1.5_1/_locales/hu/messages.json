@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "Állítsd be az alapértelmezett YouTube™-videominőséget, ami így nagy felbontást (HD) kínál."
+   },
+   "name": {
+      "message": "Auto HD/4k/8k a YouTube™ - YouTube™ Auto HD"
+   },
+   "popupAutoText": {
+      "description": "Auto",
+      "message": "Automatikus"
+   },
+   "popupHeader": {
+      "description": "Popup header",
+      "message": "Állítsd be az alapértelmezett minőséget a YouTube™ számára"
+   },
+   "short_name": {
+      "message": "Auto HD"
+   }
+}

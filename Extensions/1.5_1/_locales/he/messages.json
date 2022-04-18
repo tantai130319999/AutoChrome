@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "הגדר את ברירת המחדל של רזולוצית הווידאו ב- YouTube ™,תומך בהיי-דפינישן HD / 4k / 8k ועוד."
+   },
+   "name": {
+      "message": "Auto HD/4k/8k for YouTube™ - YouTube™ Auto HD"
+   },
+   "popupAutoText": {
+      "description": "Auto",
+      "message": "אוטומטי"
+   },
+   "popupHeader": {
+      "description": "Popup header",
+      "message": "הגדר את ברירת המחדל של רזולוצית הווידאו ב- YouTube™"
+   },
+   "short_name": {
+      "message": "Auto HD"
+   }
+}

@@ -1,0 +1,64 @@
+<div class="custom-script" script-id="{{ id_custom }}">
+    <div class="custom-script-header">
+        <span class="name">{{ name }}</span>
+        <span class="url" title="{{ url }}">
+            {{ url }}
+        </span>
+        <div class="cta">
+            <button class="ac-switch">
+                <input type="checkbox" name="turn" id="">
+            </button>
+            <button class="btn--icon edit-script">
+                <span class="icon">
+                    <svg>
+                        <use xlink:href="#icon-edit"></use>
+                    </svg>
+                </span>
+            </button>
+            <button class="btn--icon delete-script">
+                <span class="icon">
+                    <svg>
+                        <use xlink:href="#icon-delete"></use>
+                    </svg>
+                </span>
+            </button>
+        </div>
+    </div>
+    <div class="custom-script-body">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Name" value="{{ name }}">
+            <div class="row-center">
+                <input type="url" name="url" placeholder="URL" value="{{ url }}">
+                <select class="custom-select" name="type" id="">
+                    <option value="blacklist">{{ i18n.blacklist }}</option>
+                    <option value="whitelist" selected>{{ i18n.whitelist }}</option>
+                </select>
+            </div>
+            <div class="editor">
+                <pre id="js-editor-{{ id_custom }}" class="ace_editor ace-chrome">{{ code }}</pre>
+            </div>
+        </div>
+        <h3 class="title mb-16">
+            {{ i18n.settings }}
+        </h3>
+        <div class="form-group">
+            <div class="row-center">
+                <div class="custom-script-option">
+                    <select class="custom-select" name="cs_select">
+                        <option value="">{{ i18n.cs_t1 }}</option>
+                        <option value="">{{ i18n.cs_t2 }}</option>
+                        <option value="">{{ i18n.cs_t3 }}t</option>
+                        <option value="">{{ i18n.cs_t4 }}</option>
+                        <option value="">{{ i18n.cs_t5 }}</option>
+                    </select>
+                </div>
+                <div class="custom-script-option">
+                    <select class="custom-select" name="type_inct">
+                        <option value="">{{ i18n.cs_t6 }}</option>
+                        <option value="">{{ i18n.cs_t7 }}</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

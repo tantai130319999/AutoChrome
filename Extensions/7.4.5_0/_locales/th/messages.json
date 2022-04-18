@@ -1,0 +1,554 @@
+{
+   "add_new": {
+      "message": "เพิ่มใหม่"
+   },
+   "advanced": {
+      "message": "ขั้นสูง"
+   },
+   "alert_msg1": {
+      "message": "รีเซ็ตการตั้งค่าสำเร็จแล้ว"
+   },
+   "alert_msg2": {
+      "message": "ยินดีด้วย! ติดตั้ง Auto Refresh Plus สำเร็จแล้ว"
+   },
+   "alert_msg3": {
+      "message": "บันทึกการตั้งค่าสำเร็จแล้ว"
+   },
+   "all": {
+      "message": "ทั้งหมด"
+   },
+   "allow_incognito": {
+      "message": "อนุญาตในโหมดไม่ระบุตัวตน"
+   },
+   "any_change": {
+      "message": "การเปลี่ยนแปลงใด ๆ"
+   },
+   "any_msg": {
+      "message": "Auto Refresh Plus จะแจ้งเตือนคุณเมื่อมีการเปลี่ยนแปลงใด ๆ บนเว็บไซต์นี้"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "รีเฟรชหน้าอัตโนมัติด้วยคุณสมบัติติดตามหน้าเพจที่ทรงพลัง"
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "Auto Refresh Plus | ตัวช่วยติดตามหน้าเพจ"
+   },
+   "as_msg4": {
+      "message": "Auto Refresh Plus จะรีโหลดหน้าเพจใหม่อัตโนมัติเมื่อ URL เหล่านี้มีการเปิดขึ้นในเบราว์เซอร์ของคุณ และ Auto Refresh Plus จะยังเปิด URL ทั้งหมดเหล่านี้เมื่อเบราว์เซอร์ของคุณรีสตาร์ท และเริ่มรีเฟรชอัตโนมัติตามระยะเวลาที่กำหนดอีกด้วย"
+   },
+   "as_title": {
+      "message": "URL ที่เริ่มโดยอัตโนมัติ"
+   },
+   "assign_hotkeys": {
+      "message": "กำหนดคีย์ลัด"
+   },
+   "ast": {
+      "message": "ตัวช่วยนับเวลาถอยหลัง"
+   },
+   "ast_msg1": {
+      "message": "หนึ่ง URL ต่อบรรทัด เช่น"
+   },
+   "ast_msg2": {
+      "message": "เริ่มต้นรีเฟรชใหม่กับ URL เหล่านี้เมื่อเบราว์เซอร์รีสตาร์ท"
+   },
+   "ast_specific_time": {
+      "message": "เลือกเวลาเฉพาะ"
+   },
+   "auto_clicker": {
+      "message": "ตัวช่วยคลิกอัตโนมัติ"
+   },
+   "auto_clicker_msg1": {
+      "message": "ตัวช่วยคลิกลิงก์อัตโนมัติ"
+   },
+   "auto_clicker_msg2": {
+      "message": "(หากข้อความที่ติดตามหรือ regex มีลิงก์)"
+   },
+   "auto_start": {
+      "message": "เริ่มอัตโนมัติ"
+   },
+   "blacklist": {
+      "message": "แบล็กลิสต์"
+   },
+   "cancel": {
+      "message": "ยกเลิก"
+   },
+   "cancel_timer": {
+      "message": "ยกเลิกตัวจับเวลา"
+   },
+   "chrome_language": {
+      "description": "language identifier used by Chrome",
+      "message": "en"
+   },
+   "congratulations": {
+      "message": "ขอแสดงความยินดี"
+   },
+   "contribution": {
+      "message": "ผลงาน"
+   },
+   "copyright": {
+      "message": "สงวนลิขสิทธิ์"
+   },
+   "countdown": {
+      "message": "นับถอยหลัง"
+   },
+   "countdown_mode": {
+      "message": "โหมดนับถอยหลัง"
+   },
+   "cs_t1": {
+      "message": "เมื่อเปิด URL"
+   },
+   "cs_t2": {
+      "message": "รีเฟรชแต่ละหน้าเพจ"
+   },
+   "cs_t3": {
+      "message": "เมื่อตัวติดตามหน้าเพจเจอข้อความเป้าหมาย"
+   },
+   "cs_t4": {
+      "message": "เมื่อตัวติดตามหน้าเพจหาข้อความเป้าหมายไม่เจอ"
+   },
+   "cs_t5": {
+      "message": "เมื่อมีการเปลี่ยนแปลงใด ๆ เกิดขึ้น"
+   },
+   "cs_t6": {
+      "message": "ใส่ก่อนโหลดหน้าเพจ"
+   },
+   "cs_t7": {
+      "message": "ใส่หลังโหลดหน้าเพจ"
+   },
+   "custom": {
+      "message": "กำหนดเอง"
+   },
+   "custom_monitor": {
+      "message": "กำหนดตัวติดตามเอง"
+   },
+   "custom_scripts": {
+      "message": "กำหนดสคริปต์เอง"
+   },
+   "date": {
+      "message": "วันที่"
+   },
+   "deep_source": {
+      "message": "แหล่งที่มาลึก"
+   },
+   "default_target_input": {
+      "message": "รองรับข้อความหลายส่วน/regex หากต้องการเพิ่มข้อความ ให้กดปุ่มกรอก"
+   },
+   "default_target_text": {
+      "message": "ข้อความเป้าหมายเริ่มต้น"
+   },
+   "default_timerinterval": {
+      "message": "ช่วงเวลาเริ่มต้น"
+   },
+   "detect_any_change": {
+      "message": "Auto Refresh Plus ตรวจพบการเปลี่ยนแปลงบนเว็บไซต์นี้"
+   },
+   "detect_any_change_title": {
+      "message": "ตัวช่วยติดตามหน้าเพจ"
+   },
+   "dismiss": {
+      "message": "ยกเลิก"
+   },
+   "donate": {
+      "message": "บริจาค"
+   },
+   "donation": {
+      "message": "การบริจาค"
+   },
+   "donation_msg": {
+      "message": "\u003CB>สวัสดีจากทีม Auto Refresh Plus ครับ \u003C/B>\u003Cbr>หากคุณคิดว่า Auto Refresh Plus มีประโยชน์ โปรดช่วยพิจารณาในการบริจาคให้กับผู้พัฒนาด้วยนะครับ"
+   },
+   "donation_msg2": {
+      "message": "ฉันบริจาคเรียบร้อยแล้ว"
+   },
+   "email_alert": {
+      "message": "การแจ้งเตือนในอีเมล"
+   },
+   "enable_ri": {
+      "message": "เปิดใช้งานระเวลาแบบสุ่ม"
+   },
+   "enable_tf": {
+      "message": "เปิดใช้งานคุณสมบัตินี้"
+   },
+   "feature_request": {
+      "message": "ร้องขอคุณสมบัติ"
+   },
+   "find_mtr_msg": {
+      "message": "หาข้อความที่ติดตามใน"
+   },
+   "found": {
+      "message": "พบแล้ว"
+   },
+   "hard_refresh": {
+      "message": "รีเฟรชเต็มรูปแบบ"
+   },
+   "hard_refresh_msg": {
+      "message": "(รีโหลดหน้าเพจโดยไม่ต้องพึ่งข้อมูลที่แคช)"
+   },
+   "help_center": {
+      "message": "ศูนย์ความช่วยเหลือ"
+   },
+   "home": {
+      "message": "หน้าหลัก"
+   },
+   "hotkeys": {
+      "message": "คีย์หลัก"
+   },
+   "hotkeys_msg1": {
+      "message": "เริ่มช่วงเวลา"
+   },
+   "hotkeys_msg2": {
+      "message": "เริ่มช่วงเวลาแบบสุ่ม"
+   },
+   "hotkeys_msg3": {
+      "message": "เริ่มโหมดตัวจับเวลา"
+   },
+   "hotkeys_msg4": {
+      "message": "หยุดช่วงเวลา"
+   },
+   "hotkeys_msg5": {
+      "message": "ปิดเสียงแจ้งเตือน"
+   },
+   "hotkeys_title": {
+      "message": "กำหนดคีย์ลัด"
+   },
+   "hour": {
+      "message": "ชั่วโมง"
+   },
+   "howto": {
+      "message": "วิธีทำ"
+   },
+   "images": {
+      "message": "ภาพ"
+   },
+   "lost": {
+      "message": "สูญหาย"
+   },
+   "max": {
+      "message": "สูงสุด"
+   },
+   "min": {
+      "message": "ต่ำสุด"
+   },
+   "minute": {
+      "message": "นาที"
+   },
+   "minutes": {
+      "message": "นาที"
+   },
+   "monitor_full_page": {
+      "message": "ติดตามทั้งหน้า"
+   },
+   "never_playsound": {
+      "message": "อย่าเล่นเสียง"
+   },
+   "noti_msg": {
+      "message": "Auto Refresh Plus ได้ $action$ กับข้อความเป้าหมายของคุณ",
+      "placeholders": {
+         "action": {
+            "content": "$1",
+            "example": ""
+         }
+      }
+   },
+   "noti_msg_title": {
+      "message": "ข้อความเป้าหมาย!"
+   },
+   "ok": {
+      "message": "โอเค"
+   },
+   "open_link_tab": {
+      "message": "เปิดลิงก์ในแท็บใหม่"
+   },
+   "opt_msg1": {
+      "message": "รีเฟรชเมื่อมีการเปิด URL"
+   },
+   "opt_msg10": {
+      "message": "เมื่อมีการแจ้งเตือนจะมีเสียงสั้น ๆ ดังขึ้น เสียงนี้สามารถปิดหรือเปลี่ยนได้"
+   },
+   "opt_msg11": {
+      "message": "ระยะเวลาของเสียงสูงสุดแบบปรับแต่งเองเมื่อมีการแจ้งเตือน"
+   },
+   "opt_msg12": {
+      "message": "รับการแจ้งเตือนในอีเมลเมื่อเว็บไซต์มีการเปลี่ยนแปลงตามการตั้งค่าตัวช่วยติดตามเพจ"
+   },
+   "opt_msg13": {
+      "message": "รันสคริปต์ที่กำหนดเองบนหน้าเพจ"
+   },
+   "opt_msg14": {
+      "message": "หากคุณชื่นชอบที่จะเล่นกับระบบอัตโนมัติ การดึงข้อมูลจากเว็บ การเปลี่ยนพฤติกรรมเว็บไซต์ และมีความรู้เกี่ยวกับ JavaScript ขั้นพื้นฐาน คุณจะสามารถทำอะไรได้หลากหลายมาก"
+   },
+   "opt_msg15": {
+      "message": "รูปแบบของ URL เป็นอะไรได้บ้าง"
+   },
+   "opt_msg16": {
+      "message": "หากต้องการจับคู่กับทั้ง HTTP และ HTTPS เพียงแค่พิมพ์ example.com"
+   },
+   "opt_msg17": {
+      "message": "หากต้องการจับคู่กับทุกเพจในโดเมน พิมพ์ example.com/*"
+   },
+   "opt_msg18": {
+      "message": "หากต้องการจับคู่กับทุกเพจบนโดเมนและโดเมนย่อย พิมพ์ *.example.com/*"
+   },
+   "opt_msg19": {
+      "message": "ตั้งทางลัดบนคีย์บอร์ดได้เองสำหรับการกระทำของ Auto Refresh Plus"
+   },
+   "opt_msg2": {
+      "message": "เริ่มรีเฟรชโดยอัตโนมัติเมื่อมี URL เหล่านี้ใด ๆ ก็ตามถูกเปิดขึ้น"
+   },
+   "opt_msg20": {
+      "message": "รีเซ็ตการตั้งค่า Auto Refresh Plus"
+   },
+   "opt_msg21": {
+      "message": "\u003Cb>คุณแน่ใจหรือไม่\u003C/b>ว่าคุณต้องการคืนค่าการตั้งค่าของ Auto Refresh Plus ทั้งหมดให้กลับเป็นค่าเริ่มต้น?"
+   },
+   "opt_msg22": {
+      "message": "ขอแสดงความยินดี! Auto Refresh Plus ถูกติดตั้งเรียบร้อยแล้ว"
+   },
+   "opt_msg3": {
+      "message": "กรอกคำสำคัญหนึ่งคำหรือหลายคำที่นี่ และเมื่อตรวจพบคำสำคัญใด ๆ บนเว็บเพจ Auto Refresh Plus จะเริ่มรีเฟรชหน้าเพจโดยอัตโนมัติตามความถี่ช่วงเวลาค่าเริ่มต้น"
+   },
+   "opt_msg4": {
+      "message": "กรอก URL เฉพาะลงที่นี่เพื่อรีเฟรช URL นี้ แทนที่จะรีเฟรชแท็บปัจจุบันที่คุณกำลังใช้อยู่ ตัวอย่างเช่น หากคุณบันทึก Google.com ลงในการตั้งค่าและเริ่มการรีเฟรชอัตโนมัติในขณะที่อยู่ใน Yahoo.com เว็บ Google.com จะถูกรีเฟรชแทน ไม่ใช่หน้าที่คุณกำลังดูอยู่"
+   },
+   "opt_msg5": {
+      "message": "เปิดโหมดนับถอยหลัง"
+   },
+   "opt_msg6": {
+      "message": "รีเฟรชหน้าเพจที่ระบุหลังจากเวลาผ่านไปตามที่กำหนด ตัวนับเวลาถอยหลังของ Auto Refresh Plus จะช่วยให้คุณทำสิ่งเหล่านี้ได้ เพียงแค่เปิดใช้งานและตั้งเวลา แล้วตัวนับเวลาถอยหลังจะทำงาน เมื่อนับเวลาถอยหลังจนถึงศูนย์แล้ว Auto Refresh Plus จะเริ่มรีเฟรชหน้าเพจอีกครั้งที่ช่วงเวลาเริ่มต้น"
+   },
+   "opt_msg7": {
+      "message": "เพิ่มโหมดนับถอยหลังในป๊อปอัพ Auto Refresh Plus แล้ว"
+   },
+   "opt_msg8": {
+      "message": "เพิ่มคำสำคัญที่ติดตามเริ่มต้นได้ที่นี่ คุณสามารถเพิ่มคำสำคัญแบบกำหนดเองสำหรับแต่ละเว็บไซต์ได้จากป๊อปอัพส่วนขยาย"
+   },
+   "opt_msg9": {
+      "message": "รับการแจ้งเตือนโดยอัตโนมัติเมื่อเว็บเพจใด ๆ ที่ระบุตรวจพบหรือหาคำสำคัญที่คุณกำหนดไว้ไม่เจอ"
+   },
+   "options": {
+      "message": "ตัวเลือก"
+   },
+   "other_products": {
+      "message": "ผลิตภัณฑ์อื่น ๆ"
+   },
+   "page_monitor": {
+      "message": "ตัวช่วยติดตามหน้าเพจ"
+   },
+   "play_for": {
+      "message": "เล่นสำหรับ"
+   },
+   "play_onlyonce": {
+      "message": "เล่นครั้งเดียว"
+   },
+   "play_sound": {
+      "message": "เล่นเสียง"
+   },
+   "playsound_candidate": {
+      "message": "เล่นเสียงที่ 1 (1 วินาที)"
+   },
+   "playsound_candidate2": {
+      "message": "เล่นเสียงที่ 2 (6 วินาที)"
+   },
+   "playsound_msg1": {
+      "message": "เล่นเสียงจาก URL"
+   },
+   "pm_input1": {
+      "message": "ตัวอย่าง: ขายสิ้นสุดลงหมดอายุแล้ว"
+   },
+   "pm_msg2": {
+      "message": "เล่นจนกว่าฉันจะคลิกกล่องการแจ้งเตือน"
+   },
+   "pmp": {
+      "message": "รูปแบบของตัวช่วยติตดามหน้าเพจ"
+   },
+   "pmp_msg1": {
+      "message": "การแจ้งเตือนแบบป๊อปอัพเมื่อ\u003Cb>เจอ\u003C/b>ข้อความเป้าหมาย (หรือ regex)"
+   },
+   "pmp_msg2": {
+      "message": "การแจ้งเตือนแบบป๊อปอัพเมื่อ\u003Cb>หา\u003C/b>ข้อความเป้าหมายไม่เจอ (หรือ regex)"
+   },
+   "predefined": {
+      "message": "กำหนดล่วงหน้า"
+   },
+   "predefined_text": {
+      "message": "ข้อความที่กำหนดล่วงหน้า"
+   },
+   "predefined_url": {
+      "message": "URL ที่กำหนดล่วงหน้า"
+   },
+   "r_browser": {
+      "message": "รีเฟรชเมื่อเบราว์เซอร์รีสตาร์ท"
+   },
+   "random_interval": {
+      "message": "ช่วงเวลาแบบสุ่ม"
+   },
+   "rate_us": {
+      "message": "ให้คะแนนเรา"
+   },
+   "ratings": {
+      "message": "คะแนน"
+   },
+   "ratings_msg": {
+      "message": "โปรดให้คะแนนเราห้าดาวบนเว็บสโตร์"
+   },
+   "ratings_msg2": {
+      "message": "ได้เลย! มาเริ่มกัน"
+   },
+   "refresh_number": {
+      "message": "ตั้งจำนวนครั้งที่รีเฟรช"
+   },
+   "refresh_number_msg": {
+      "message": "(ตั้งว่าคุณต้องการจะรีเฟรชกี่ครั้ง)"
+   },
+   "reset": {
+      "message": "การตั้งค่าการรีเซ็ต"
+   },
+   "rpp": {
+      "message": "รีเฟรชหน้าเพจที่กำหนดล่วงหน้า"
+   },
+   "rpp_body": {
+      "message": "รีเฟรชเนื้อหาหน้าเพจที่กำหนดล่วงหน้า"
+   },
+   "rpp_msg1": {
+      "message": "(เช่น google.com)"
+   },
+   "rpp_title": {
+      "message": "รีเฟรชหน้าเพจที่กำหนดล่วงหน้า"
+   },
+   "rpt": {
+      "message": "รีเฟรชข้อความที่กำหนดล่วงหน้า"
+   },
+   "rpt_body": {
+      "message": "รีเฟรชเนื้อหาข้อความที่กำหนดล่วงหน้า"
+   },
+   "rpt_input1": {
+      "message": "รองรับข้อความหลายส่วน/regex หากต้องการเพิ่มข้อความ ให้กดปุ่มกรอก"
+   },
+   "rpt_title": {
+      "message": "รีเฟรชข้อความที่กำหนดล่วงหน้า"
+   },
+   "save": {
+      "message": "บันทึก"
+   },
+   "seconds": {
+      "message": "วินาที"
+   },
+   "select_countdown": {
+      "message": "เลือกนับถอยหลัง"
+   },
+   "select_date": {
+      "message": "เลือกวันที่"
+   },
+   "select_time": {
+      "message": "เลือกเวลา"
+   },
+   "settings": {
+      "message": "การตั้งค่า"
+   },
+   "show_tab": {
+      "message": "แสดงแท็บ"
+   },
+   "sound_length": {
+      "message": "ความยาวเสียง"
+   },
+   "source": {
+      "message": "แหล่งที่มา"
+   },
+   "source_msg": {
+      "message": "(ค้นหาภายในข้อความ inline ในโค้ดต้นฉบับของ HTML)"
+   },
+   "specific_timemode": {
+      "message": "โหมดเวลาเฉพาะ (เช่น 2012-01-01 20:10:00)"
+   },
+   "start_msg": {
+      "message": "เริ่ม"
+   },
+   "start_timer": {
+      "message": "เริ่มตัวจับเวลา"
+   },
+   "start_timer_body": {
+      "message": "เริ่มเนื้อหาตัวจับเวลา"
+   },
+   "start_timer_title": {
+      "message": "เริ่มตัวจับเวลา"
+   },
+   "stop": {
+      "message": "หยุด"
+   },
+   "stop_sound": {
+      "message": "หยุดเสียง"
+   },
+   "success": {
+      "message": "บันทึกการตั้งค่าเรียบร้อย"
+   },
+   "supported_expressions": {
+      "message": "นิพจน์ที่รองรับ"
+   },
+   "test_play": {
+      "message": "ทดสอบการเล่น"
+   },
+   "ti_msg1": {
+      "message": "ตั้งเวลาเริ่มต้นสำหรับทุกการรีเฟรชหน้าเพจ คุณสามารถเริ่มได้ทั้งช่วงเวลาแบบกำหนดล่วงหน้า หรือระบุช่วงเวลาแบบกำหนดเองจากป๊อปอัพส่วนขยาย"
+   },
+   "ti_msg2": {
+      "message": "สุ่มช่วงเวลาของแต่ละการรีเฟรชหน้าเพจที่ Auto Refresh Plus ทำ สิ่งที่คุณต้องทำคือเพียงแค่เลือกระยะเวลาสูงสุดและต่ำสุด แล้วส่วนขยายจะทำการรีเฟรชหน้าเพจตามช่วงที่ระบุไว้โดยอัตโนมัติ"
+   },
+   "ti_msg3": {
+      "message": "เพิ่มฟังก์ชันช่วงเวลาแบบสุ่มเข้าไปในป๊อปอัพ Auto Refresh Plus เรียบร้อยแล้ว"
+   },
+   "time": {
+      "message": "เวลา"
+   },
+   "time_interval": {
+      "message": "ช่วงเวลา"
+   },
+   "timer_mode": {
+      "message": "โหมดการจับเวลา"
+   },
+   "up_msg1": {
+      "message": "Auto Refresh Plus อัปเดตเป็นเวอร์ชัน"
+   },
+   "up_msg2": {
+      "message": "การแจ้งเตือนทางอีเมลในแบ็กเอนด์"
+   },
+   "up_msg3": {
+      "message": "เพิ่มการรองรับโหมดข้อความในการค้นหาหน้าจอมอนิเตอร์"
+   },
+   "up_msg4": {
+      "message": "ข้อผิดพลาดทศนิยมในเวลาที่กำหนดเอง ( Crash ARP )"
+   },
+   "up_msg5": {
+      "message": "ข้อผิดพลาดบรรทัดว่างในการเริ่มอัตโนมัติ"
+   },
+   "up_msg6": {
+      "message": "$ เซ็นบั๊กใน Page-Monitor"
+   },
+   "up_msg7": {
+      "message": "บั๊ก URL เริ่มต้นอัตโนมัติที่กำหนดไว้ล่วงหน้าพร้อมการตรวจสอบหน้า"
+   },
+   "up_msg8": {
+      "message": "เกิดข้อผิดพลาดเมื่อรวม regex กับ AutoClick Function"
+   },
+   "up_msg9": {
+      "message": "ฉันเข้าใจ"
+   },
+   "use_default": {
+      "message": "ใช้ค่าเริ่มต้น"
+   },
+   "visual": {
+      "message": "ภาพ"
+   },
+   "visual_msg": {
+      "message": "(หาภายในข้อความที่คุณเห็นบนหน้าจอภาพ)"
+   },
+   "volume": {
+      "message": "ระดับเสียง"
+   },
+   "whats_new": {
+      "message": "มีอะไรใหม่?"
+   },
+   "whitelist": {
+      "message": "ไวท์ลิส"
+   }
+}

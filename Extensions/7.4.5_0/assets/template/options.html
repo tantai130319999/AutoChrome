@@ -1,0 +1,543 @@
+<div class="options-wrap">
+    <aside class="sidebar">
+        <ul class="options--tabs">
+            <li rel="tab--time-interval" class="options--tab active">{{__MSG_time_interval__}}</li>
+            <li rel="tab--auto-start" class="options--tab">{{__MSG_auto_start__}}</li>
+            <li rel="tab--predefined" class="options--tab">{{__MSG_predefined__}}</li>
+            <li rel="tab--countdown" class="options--tab">{{__MSG_countdown__}}</li>
+            <li rel="tab--page-monitor" class="options--tab">{{__MSG_page_monitor__}}</li>
+            <li rel="tab--custom-script" class="options--tab active">{{__MSG_custom_scripts__}}</li>
+            <li rel="tab--time-hotkeys" class="options--tab">{{__MSG_hotkeys__}}</li>
+            <li rel="tab--reset-settings" class="options--tab">{{__MSG_reset__}}</li>
+        </ul>
+    </aside>
+    <main>
+        <section id="tab--time-interval" class="options--tab-content">
+            <h3 class="section-title">
+                {{__MSG_time_interval__}}
+                <!-- <button class="help-btn" sd-content="general_setting">
+                    <span class="icon">
+                        <svg>
+                            <use xlink:href="#icon-help"></use>
+                        </svg>
+                    </span>
+                </button> -->
+            </h3>
+            <div class="section--predefined">
+                <div class="section--predefined-content">
+                    <h3 class="title">
+                        {{__MSG_default_timerinterval__}}
+                    </h3>
+                    <p class="desc">
+                        {{__MSG_ti_msg1__}}
+                    </p>
+                    <div class="row-center">
+                        <input type="number" size="4" value="12" min="1" max="9999" id="default_time">
+                        <label for="default_time">{{__MSG_seconds__}}</label>
+                    </div>
+                </div>
+            </div>
+            <div class="section--predefined with-notification">
+                <div class="section--predefined-content">
+                    <h3 class="title">
+                        {{__MSG_enable_ri__}}
+                    </h3>
+                    <p class="desc">
+                        {{__MSG_ti_msg2__}}
+                    </p>
+                </div>
+                <button class="ac-switch" id="randomTime">
+                    <input type="checkbox" rel="rel--random-interval" name="randomTime">
+                </button>
+            </div>
+            <div class="notification success rel--random-interval">
+                <span class="icon">
+                    <svg>
+                        <use xlink:href="#icon-tick"></use>
+                    </svg>
+                </span>
+                <p class="notification--content">
+                    {{__MSG_ti_msg3__}}
+                </p>
+            </div>
+            <div class="hr"></div>
+            <div class="section--predefined">
+                <div class="section--predefined-content">
+                    <p>
+                        {{__MSG_howto__}}: <a href="#" id="incognito" class="ml-16">{{__MSG_allow_incognito__}}</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="tab--auto-start" class="options--tab-content">
+            <h3 class="section-title">
+                {{__MSG_auto_start__}}
+                <!--  <button class="help-btn" sd-content="auto_start">
+                    <span class="icon">
+                        <svg>
+                            <use xlink:href="#icon-help"></use>
+                        </svg>
+                    </span>
+                </button> -->
+            </h3>
+            <div class="section--predefined">
+                <div class="section--predefined-content">
+                    <h3 class="title">
+                        {{__MSG_as_title__}}
+                    </h3>
+                    <p class="desc">
+                        {{__MSG_as_msg4__}}
+                    </p>
+                    <textarea id="as2" class="rel--auto-start" placeholder="{{__MSG_ast_msg1__}}
+example.com
+google.com
+demo.com"></textarea>
+                </div>
+                <button class="ac-switch" id="autostart">
+                    <input type="checkbox" rel="rel--auto-start">
+                </button>
+            </div>
+            <div class="section--predefined">
+                <div class="section--predefined-content">
+                    <h3 class="title">
+                        {{__MSG_r_browser__}}
+                    </h3>
+                    <p class="desc">
+                        {{__MSG_ast_msg2__}}
+                    </p>
+                </div>
+                <button class="ac-switch rel--auto-start">
+                    <input type="checkbox" id="asrestart">
+                </button>
+            </div>
+            <div class="section--predefined">
+                <div class="section--predefined-content">
+                    <h3 class="title">
+                        {{__MSG_opt_msg1__}}
+                    </h3>
+                    <p class="desc">
+                        {{__MSG_opt_msg2__}}
+                    </p>
+                </div>
+                <button class="ac-switch rel--auto-start">
+                    <input type="checkbox" id="asrefresh">
+                </button>
+            </div>
+        </section>
+        <section id="tab--predefined" class="options--tab-content">
+            <h3 class="section-title">
+                {{__MSG_predefined__}}
+                <!-- <button class="help-btn" sd-content="rpp">
+                    <span class="icon">
+                        <svg>
+                            <use xlink:href="#icon-help"></use>
+                        </svg>
+                    </span>
+                </button> -->
+            </h3>
+            <div class="section--predefined">
+                <div class="section--predefined-content">
+                    <h3 class="title">
+                        {{__MSG_predefined_text__}}
+                    </h3>
+                    <p class="desc">
+                        {{__MSG_opt_msg3__}}
+                    </p>
+                    <div class="tag-container rel--predefined-text">
+                        <input type="text" class="tags-input" placeholder="{{__MSG_rpt_input1__}}" id="rpttext">
+                    </div>
+                    <div class="help-text max-500">
+                        {{__MSG_supported_expressions__}}
+                    </div>
+                </div>
+                <button class="ac-switch" id="rpt">
+                    <input type="checkbox" id="" rel="rel--predefined-text">
+                </button>
+            </div>
+            <div class="section--predefined">
+                <div class="section--predefined-content">
+                    <h3 class="title">
+                        {{__MSG_predefined_url__}}
+                    </h3>
+                    <p class="desc">
+                        {{__MSG_opt_msg4__}}
+                    </p>
+                    <input type="text" id="pdurl" class="rel--predefined-page" placeholder="{{__MSG_rpp_msg1__}}">
+                </div>
+                <button class="ac-switch" id="pdcheck">
+                    <input type="checkbox" id="" rel="rel--predefined-page">
+                </button>
+            </div>
+        </section>
+        <section id="tab--countdown" class="options--tab-content">
+            <h3 class="section-title">
+                {{__MSG_countdown__}}
+                <!-- <button class="help-btn" sd-content="start_timer">
+                    <span class="icon">
+                        <svg>
+                            <use xlink:href="#icon-help"></use>
+                        </svg>
+                    </span>
+                </button> -->
+            </h3>
+            <div class="section--predefined with-notification">
+                <div class="section--predefined-content">
+                    <h3 class="title">
+                        {{__MSG_opt_msg5__}}
+                    </h3>
+                    <p class="desc">
+                        {{__MSG_opt_msg6__}}
+                    </p>
+                </div>
+                <button class="ac-switch" id="timercheck">
+                    <input type="checkbox" rel="rel--start-timer">
+                </button>
+            </div>
+            <div class="notification success rel--start-timer">
+                <span class="icon">
+                    <svg>
+                        <use xlink:href="#icon-tick"></use>
+                    </svg>
+                </span>
+                <p class="notification--content">
+                    {{__MSG_opt_msg7__}}
+                </p>
+            </div>
+            <div class="hr"></div>
+        </section>
+        <section id="tab--page-monitor" class="options--tab-content">
+            <h3 class="section-title">
+                {{__MSG_page_monitor__}}
+                <!-- <button class="help-btn" sd-content="page_monitor">
+                    <span class="icon">
+                        <svg>
+                            <use xlink:href="#icon-help"></use>
+                        </svg>
+                    </span>
+                </button> -->
+            </h3>
+            <div class="section-wrap">
+                <div class="section--predefined">
+                    <div class="section--predefined-content">
+                        <h3 class="title">
+                            {{__MSG_default_target_text__}}
+                        </h3>
+                        <p class="desc">
+                            {{__MSG_opt_msg8__}}
+                        </p>
+                        <div class="tag-container">
+                            <input type="text" class="tags-input" placeholder="{{__MSG_default_target_input__}}" id="defaultpgtxt">
+                        </div>
+                        <div class="help-text max-500">
+                            {{__MSG_supported_expressions__}}
+                        </div>
+                    </div>
+                </div>
+                <div class="section--predefined">
+                    <div class="section--predefined-content">
+                        <h3 class="title">
+                            {{__MSG_pmp__}}
+                        </h3>
+                        <p class="desc">
+                            <!-- Automatically get notified when any given webpage has found or lost your defined keyword -->
+                            {{__MSG_opt_msg9__}}
+                        </p>
+                        <div class="form-group">
+                            <div class="row-center">
+                                <div class="custom-input">
+                                    <input type="radio" name="pm-pattern" id="pagemr01" checked>
+                                    <span></span>
+                                </div>
+                                <label for="pagemr01">
+                                    {{__MSG_pmp_msg1__}}
+                                </label>
+                            </div>
+                            <div class="row-center">
+                                <div class="custom-input">
+                                    <input type="radio" name="pm-pattern" id="pagemr02">
+                                    <span></span>
+                                </div>
+                                <label for="pagemr02">
+                                    {{__MSG_pmp_msg2__}}
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section--predefined">
+                    <div class="section--predefined-content">
+                        <h3 class="title">
+                            {{__MSG_play_sound__}}
+                        </h3>
+                        <p class="desc">
+                            <!-- When a notification arrives a short sound plays. The sound can be turned off or changed -->
+                            {{__MSG_opt_msg10__}}
+                            here
+                        </p>
+                        <div class="form-group">
+                            <div class="row-center">
+                                <div class="custom-input">
+                                    <input type="radio" id="pmsound01" name="pmsound" checked>
+                                    <span></span>
+                                </div>
+                                <label for="pmsound01">
+                                    {{__MSG_never_playsound__}}
+                                </label>
+                            </div>
+                            <div class="row-center">
+                                <div class="custom-input">
+                                    <input type="radio" id="pmsound02" name="pmsound">
+                                    <span></span>
+                                </div>
+                                <label for="pmsound02">
+                                    {{__MSG_playsound_candidate__}}
+                                </label>
+                            </div>
+                            <div class="row-center">
+                                <div class="custom-input">
+                                    <input type="radio" id="pmsound03" name="pmsound">
+                                    <span></span>
+                                </div>
+                                <label for="pmsound03">
+                                    {{__MSG_playsound_candidate2__}}
+                                </label>
+                            </div>
+                            <div class="row-center wrap row">
+                                <div class="custom-input">
+                                    <input type="radio" id="pmsound04" name="pmsound">
+                                    <span></span>
+                                </div>
+                                <label for="pmsound04">
+                                    {{__MSG_playsound_msg1__}}:
+                                </label>
+                                <input type="text" name="soundurl" id="soundurl" placeholder="e.g. www.example.com/sound.mp3">
+                            </div>
+                            <div class="row-center">
+                                <label class="mt-6">
+                                    {{__MSG_volume__}}:
+                                </label>
+                                <input type="range" id="soundvolume" min="0" max="1" step="0.01" value="1">
+                                <button class="btn-primary small" id="test-play">{{__MSG_test_play__}}</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section--predefined">
+                    <div class="section--predefined-content">
+                        <h3 class="title">
+                            {{__MSG_sound_length__}}
+                        </h3>
+                        <p class="desc">
+                            <!-- customized Maximum sound duration when a notification arrives -->
+                            {{__MSG_opt_msg11__}}
+                        </p>
+                        <div class="form-group">
+                            <div class="row-center">
+                                <div class="custom-input">
+                                    <input type="radio" id="pm_sound_til_click" name="pm_sound_til" value="pm_sound_til_click" checked>
+                                    <span></span>
+                                </div>
+                                <label for="pm_sound_til_click">
+                                    {{__MSG_pm_msg2__}}
+                                </label>
+                            </div>
+                            <div class="row-center">
+                                <div class="custom-input">
+                                    <input type="radio" id="pm_sound_til_sound" name="pm_sound_til" value="pm_sound_til_sound">
+                                    <span></span>
+                                </div>
+                                <label for="pm_sound_til_sound">
+                                    {{__MSG_play_onlyonce__}}
+                                </label>
+                            </div>
+                            <div class="row-center">
+                                <div class="custom-input">
+                                    <input type="radio" id="pm_sound_til_timeout" name="pm_sound_til" value="pm_sound_til_timeout">
+                                    <span></span>
+                                </div>
+                                <label for="pm_sound_til_timeout">
+                                    {{__MSG_play_for__}}
+                                </label>
+                                <input type="number" id="pm_sound_timeout" value="5" min="1">
+                                <label for="pm_sound_timeout">{{__MSG_seconds__}}</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section--predefined">
+                    <div class="section--predefined-content">
+                        <h3 class="title">
+                            {{__MSG_email_alert__}}
+                        </h3>
+                        <p class="desc">
+                            <!-- Get email notifications when a Website Changes according to page monitor settings -->
+                            {{__MSG_opt_msg12__}}
+                        </p>
+                        <div class="form-group email-input">
+                            <input type="email" name="" id="ea" placeholder="name@email.com">
+                            <span class="icon">
+                                <svg>
+                                    <use xlink:href="#icon-mail"></use>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tab--custom-script" class="options--tab-content">
+            <h3 class="section-title">
+                {{__MSG_custom_scripts__}}
+                <!-- <button class="help-btn" sd-content="custom_script">
+                    <span class="icon">
+                        <svg>
+                            <use xlink:href="#icon-help"></use>
+                        </svg>
+                    </span>
+                </button> -->
+            </h3>
+            <div class="section-wrap" id="custom-scripts">
+                <div class="section--predefined">
+                    <div class="section--predefined-content">
+                        <h3 class="title">
+                            <!-- Execute custom scripts on page -->
+                            {{__MSG_opt_msg13__}}
+                        </h3>
+                        <p class="desc">
+                            <!-- If you love playing with automations, scraping, changing default website’s behavior and -->
+                            <!-- have some basic knowledge of JavaScript, there’s a lot you can do here. -->
+                            {{__MSG_opt_msg14__}}
+                        </p>
+                        <div class="help--wrap">
+                            <a href="#" class="help--link">
+                                <!-- What URL patterns are allowed -->
+                                {{__MSG_opt_msg15__}}
+                            </a>
+                            <ul class="help--list">
+                                <li class="help--list-item">
+                                    <!-- To match both http and https, just write example.com -->
+                                    {{__MSG_opt_msg16__}}
+                                </li>
+                                <li class="help--list-item">
+                                    <!-- To match every page on a domain, write example.com/* -->
+                                    {{__MSG_opt_msg17__}}
+                                </li>
+                                <li class="help--list-item">
+                                    <!-- To match every page on a domain and it's subdomains, write *.example.com/* -->
+                                    {{__MSG_opt_msg18__}}
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="custom-data"></div>
+                <button id="custom-script-add" class="custom-script-add">
+                    <span class="btn-text">{{__MSG_add_new__}}</span>
+                </button>
+            </div>
+        </section>
+        <section id="tab--time-hotkeys" class="options--tab-content">
+            <h3 class="section-title">
+                {{__MSG_assign_hotkeys__}}
+                <!-- <button class="help-btn" sd-content="hotkeys">
+                    <span class="icon">
+                        <svg>
+                            <use xlink:href="#icon-help"></use>
+                        </svg>
+                    </span>
+                </button> -->
+            </h3>
+            <div class="section-wrap section-hotkeys" id="section-hotkeys">
+                <div class="form-group horizentle row">
+                    <label for="shk" class="form-title">
+                        <!-- Set your own custom keyboard shortcuts for ARP actions -->
+                        {{__MSG_opt_msg19__}}
+                    </label>
+                    <button class="ac-switch" id="hotkeys">
+                        <input type="checkbox" id="" rel="shk">
+                    </button>
+                </div>
+                <div class="form-group">
+                    <label for="shk-1" class="form-title">
+                        {{__MSG_hotkeys_msg1__}}:
+                    </label>
+                    <input class="shk" type="text" id="shk-1" placeholder="Set Hotkey">
+                </div>
+                <div class="form-group">
+                    <label for="shk-2" class="form-title">
+                        {{__MSG_hotkeys_msg2__}}:
+                    </label>
+                    <input class="shk" type="text" id="shk-2" placeholder="Set Hotkey">
+                </div>
+                <div class="form-group">
+                    <label for="shk-3" class="form-title">
+                        {{__MSG_hotkeys_msg3__}}:
+                    </label>
+                    <input class="shk" type="text" id="shk-3" placeholder="Set Hotkey">
+                </div>
+                <div class="form-group">
+                    <label for="shk-4" class="form-title">
+                        {{__MSG_hotkeys_msg4__}}:
+                    </label>
+                    <input class="shk" type="text" id="shk-4" placeholder="Set Hotkey">
+                </div>
+                <div class="form-group">
+                    <label for="shk-5" class="form-title">
+                        {{__MSG_hotkeys_msg5__}}:
+                    </label>
+                    <input class="shk" type="text" id="shk-5" placeholder="Set Hotkey">
+                </div>
+            </div>
+        </section>
+        <section id="tab--reset-settings" class="options--tab-content">
+            <h3 class="section-title">
+                <!-- Reset Auto Refresh Plus settings -->
+                {{__MSG_opt_msg20__}}
+                <!-- <button class="help-btn" sd-content="reset_settings">
+                    <span class="icon">
+                        <svg>
+                            <use xlink:href="#icon-help"></use>
+                        </svg>
+                    </span>
+                </button> -->
+            </h3>
+            <div class="section-wrap" id="">
+                <div class="form-group ">
+                    <p class="text-red">
+                        <!-- <b>Are you sure</b> you would like to restore all Auto refresh plus settings to their default? -->
+                        {{__MSG_opt_msg21__}}
+                    </p>
+                    <button class="btn-reset">
+                        {{__MSG_reset__}}
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+<div id="html1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:0px; height:0px; z-index:0">
+    <input type="checkbox" name="dontsupport" id="dontsupport" />
+</div>
+<!-- Add Class 'Active' to show Message -->
+<div class="toast success hide">
+    <span class="icon">
+        <svg>
+            <use xlink:href="#icon-success"></use>
+        </svg>
+    </span>
+    <p class="toast--content">
+        <!-- Congrats! Auto Refresh Plus Installed Successfully -->
+        {{__MSG_opt_msg22__}}
+    </p>
+</div>
+<!-- Code For sidebar -->
+<div class="help-sidebar">
+    <span class="close-btn" id="hs-close"></span>
+    <div class="hs-wrap">
+        <article>
+            <h3 id="sb-title"></h3>
+            <div id="sb-body"></div>
+        </article>
+    </div>
+</div>
+<!-- Code For sidebar -->

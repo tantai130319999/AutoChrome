@@ -1,0 +1,38 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": "Icon/32.png",
+      "default_popup": "popup.html",
+      "default_title": "Auto Refresh Plus"
+   },
+   "content_scripts": [ {
+      "css": [ "assets/css/arp.css" ],
+      "js": [ "js/arp.js", "js/i18n.js", "assets/js/jquery-1.5.2.min.js" ],
+      "matches": [ "*://autorefresh.io/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_app_description__",
+   "icons": {
+      "128": "Icon/64.png",
+      "16": "Icon/16.png",
+      "32": "Icon/32.png",
+      "64": "Icon/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxH9rM3n9Sep3CMfomHW2vaIa4a00JwlV78gN/XhBMt4nxWTk0s/7iUkob9nSEc9JWWjCEftikYDPWVUXbB5v89rBLukHc9MyCVFHksfez27Jgzu86lpSbfRazFE6J/v20J8Z2pcHX9cxCZaDbIlCNvJ65eRrFTLjIpECIQoYUdeC8z6VMaKw4mBlUK08TZAF9Bo7Qx/8zKHY6pewo43pCNHBqenRfMOiZSCV/mCm2kM2oE5KA3dH5wPv1zTEDDbYFL1N21TzagGm3lXYT35EMAUI52Byq/eLmT+/YM3XYpuS7J8MAur31nGH0nt7ReFW5pTJJbwGJVS1bWX4y57u8QIDAQAB",
+   "manifest_version": 2,
+   "name": "Auto Refresh Plus | Page Monitor",
+   "optional_permissions": [ "http://*/*", "https://*/*" ],
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "notifications", "tabs", "storage", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.4.5",
+   "web_accessible_resources": [ "a.html", "blank.html", "Icon/*.png", "assets/template/*.html", "*.svg", "*.mp3", "assets/css/*.css", "assets/js/*.js" ]
+}

@@ -1,0 +1,1 @@
+window.ARP_Already||(window.ARP_Already=!0,chrome.runtime.onMessage.addListener(function(e,n,r){"ARP_inbefore"==e.greeting&&(window.ARP_ctrlInBefore?r({message:"none"}):(r({message:"ready"}),window.ARP_ctrlInBefore=!0))}));

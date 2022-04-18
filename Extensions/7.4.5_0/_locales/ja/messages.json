@@ -1,0 +1,554 @@
+{
+   "add_new": {
+      "message": "新規追加"
+   },
+   "advanced": {
+      "message": "進歩した"
+   },
+   "alert_msg1": {
+      "message": "設定が正常にリセットされました"
+   },
+   "alert_msg2": {
+      "message": "Auto RefreshPlusが正常にインストールされました！"
+   },
+   "alert_msg3": {
+      "message": "設定が正常にセーブされました"
+   },
+   "all": {
+      "message": "すべて"
+   },
+   "allow_incognito": {
+      "message": "シークレットで許可する"
+   },
+   "any_change": {
+      "message": "何かの変更"
+   },
+   "any_msg": {
+      "message": "このウェブサイトに変更があった場合には、Auto Refresh Plusがお知らせします。"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "強力なページモニター機能で自動的にページを更新する"
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "Auto Refresh Plus｜ページモニター"
+   },
+   "as_msg4": {
+      "message": "Auto Refresh Plusは、ブラウザでこれらのURLを開いたと際に、ページリロード機能を自動的に開始します。また、ブラウザの再起動時にも、これらのURLをすべて開き、任意の領域でAuto Refresh Plusを開始します。"
+   },
+   "as_title": {
+      "message": "自動開始URL"
+   },
+   "assign_hotkeys": {
+      "message": "ホットキーの割り当て"
+   },
+   "ast": {
+      "message": "カウントダウンタイマー"
+   },
+   "ast_msg1": {
+      "message": "1行に1つのURLを表示します。"
+   },
+   "ast_msg2": {
+      "message": "オートスタートはブラウザの再起動時にこれらのURLを更新します"
+   },
+   "ast_specific_time": {
+      "message": "特定の時間を選択する"
+   },
+   "auto_clicker": {
+      "message": "オートクリッカー"
+   },
+   "auto_clicker_msg1": {
+      "message": "リンクの自動クリック"
+   },
+   "auto_clicker_msg2": {
+      "message": "（監視対象のテキストや正規表現にリンクがある場合）"
+   },
+   "auto_start": {
+      "message": "オートスタート"
+   },
+   "blacklist": {
+      "message": "ブラックリスト"
+   },
+   "cancel": {
+      "message": "キャンセル"
+   },
+   "cancel_timer": {
+      "message": "キャンセルタイマー"
+   },
+   "chrome_language": {
+      "description": "language identifier used by Chrome",
+      "message": "英語"
+   },
+   "congratulations": {
+      "message": "おめでとう"
+   },
+   "contribution": {
+      "message": "貢献すること"
+   },
+   "copyright": {
+      "message": "全ての権利を留保している"
+   },
+   "countdown": {
+      "message": "カウントダウン"
+   },
+   "countdown_mode": {
+      "message": "カウントダウンモード"
+   },
+   "cs_t1": {
+      "message": "URLを開いた時"
+   },
+   "cs_t2": {
+      "message": "ページを更新した時"
+   },
+   "cs_t3": {
+      "message": "ページモニターが目的のテキストを見つけた時"
+   },
+   "cs_t4": {
+      "message": "ページモニターがターゲットテキストをLOSTした時"
+   },
+   "cs_t5": {
+      "message": "変更があった時"
+   },
+   "cs_t6": {
+      "message": "ページロード前に注入"
+   },
+   "cs_t7": {
+      "message": "ページロード後に注入"
+   },
+   "custom": {
+      "message": "カスタム"
+   },
+   "custom_monitor": {
+      "message": "カスタムモニター"
+   },
+   "custom_scripts": {
+      "message": "カスタムスクリプト"
+   },
+   "date": {
+      "message": "日付"
+   },
+   "deep_source": {
+      "message": "深部の情報源"
+   },
+   "default_target_input": {
+      "message": "複数のテキスト／正規表現に対応、別のテキストを追加するにはEnterボタンを押してください"
+   },
+   "default_target_text": {
+      "message": "デフォルトのターゲットテキスト"
+   },
+   "default_timerinterval": {
+      "message": "デフォルトのタイムインターバル"
+   },
+   "detect_any_change": {
+      "message": "Auto Refresh Plusは、このウェブサイトの変更を検出しました。"
+   },
+   "detect_any_change_title": {
+      "message": "ページモニター"
+   },
+   "dismiss": {
+      "message": "解除する"
+   },
+   "donate": {
+      "message": "寄付する"
+   },
+   "donation": {
+      "message": "寄付"
+   },
+   "donation_msg": {
+      "message": "\u003CB>こんにちは。Auto Refresh チームです。\u003C/B>\u003Cbr>Auto Refresh Plusがお役に立った場合には、作者への寄付をご検討くださいませ。"
+   },
+   "donation_msg2": {
+      "message": "既に行いました"
+   },
+   "email_alert": {
+      "message": "Eメールによる警告"
+   },
+   "enable_ri": {
+      "message": "ランダムな間隔を有効にする"
+   },
+   "enable_tf": {
+      "message": "この機能を有効にする"
+   },
+   "feature_request": {
+      "message": "機能の要求"
+   },
+   "find_mtr_msg": {
+      "message": "モニターテキストの検索"
+   },
+   "found": {
+      "message": "発見"
+   },
+   "hard_refresh": {
+      "message": "ハードリフレッシュ"
+   },
+   "hard_refresh_msg": {
+      "message": "（キャッシュデータに頼らずにページを再読み込みする）"
+   },
+   "help_center": {
+      "message": "ヘルプセンター"
+   },
+   "home": {
+      "message": "ホーム"
+   },
+   "hotkeys": {
+      "message": "ホットキーたち"
+   },
+   "hotkeys_msg1": {
+      "message": "時間のインターバル開始"
+   },
+   "hotkeys_msg2": {
+      "message": "ランダム時間開始"
+   },
+   "hotkeys_msg3": {
+      "message": "タイマーモード開始"
+   },
+   "hotkeys_msg4": {
+      "message": "間隔を止める"
+   },
+   "hotkeys_msg5": {
+      "message": "通知音を消す"
+   },
+   "hotkeys_title": {
+      "message": "ホットキーの割り当て"
+   },
+   "hour": {
+      "message": "時間"
+   },
+   "howto": {
+      "message": "やり方"
+   },
+   "images": {
+      "message": "イメージ"
+   },
+   "lost": {
+      "message": "なくす"
+   },
+   "max": {
+      "message": "最高"
+   },
+   "min": {
+      "message": "最小"
+   },
+   "minute": {
+      "message": "分"
+   },
+   "minutes": {
+      "message": "分"
+   },
+   "monitor_full_page": {
+      "message": "フルページのモニター"
+   },
+   "never_playsound": {
+      "message": "サウンドを再生しない"
+   },
+   "noti_msg": {
+      "message": "Auto Refresh Plusは$action$をターゲットテキストにする",
+      "placeholders": {
+         "action": {
+            "content": "$1",
+            "example": ""
+         }
+      }
+   },
+   "noti_msg_title": {
+      "message": "ターゲットのテキスト！"
+   },
+   "ok": {
+      "message": "はい"
+   },
+   "open_link_tab": {
+      "message": "リンクを新しいタブで開く"
+   },
+   "opt_msg1": {
+      "message": "URLを開く際に更新する"
+   },
+   "opt_msg10": {
+      "message": "通知が届くと、短い音が鳴ります。音はオフにしたり、変更することができます。"
+   },
+   "opt_msg11": {
+      "message": "カスタマイズ通知が来た時の最大音の長さ"
+   },
+   "opt_msg12": {
+      "message": "ページモニターの設定に応じて、ウェブサイトの変更をメールで通知する"
+   },
+   "opt_msg13": {
+      "message": "ページ上でカスタムスクリプトを実行する"
+   },
+   "opt_msg14": {
+      "message": "自動化やスクレイピング、ウェブサイトのデフォルト動作の変更などが好きで、JavaScriptの基本的な知識があれば、ここでできることはたくさんあります。"
+   },
+   "opt_msg15": {
+      "message": "どのようなURLパターンが許可されるか"
+   },
+   "opt_msg16": {
+      "message": "HTTPとHTTPSの両方にマッチさせるには、example.comと書けばいいのです"
+   },
+   "opt_msg17": {
+      "message": "あるドメインのすべてのページに対応するには、example.com/*と記述します。"
+   },
+   "opt_msg18": {
+      "message": "ドメインとそのサブドメイン上のすべてのページに一致させるには、*.example.com/*と記述します。"
+   },
+   "opt_msg19": {
+      "message": "キーボードでAuto Refresh Plusアクションのカスタムショートカットを設定する"
+   },
+   "opt_msg2": {
+      "message": "これらのURLのいずれかを開いた時に自動更新を開始する"
+   },
+   "opt_msg20": {
+      "message": "Auto Refresh Plusの設定をリセットする"
+   },
+   "opt_msg21": {
+      "message": "Auto Refresh Plusの設定をすべてデフォルトに戻しても\u003Cb>本当によろしいですか？\u003C/b>"
+   },
+   "opt_msg22": {
+      "message": "おめでとうございます！Auto Refresh Plusのインストールが成功しました"
+   },
+   "opt_msg3": {
+      "message": "ここに１つまたは複数のキーワードを挿入すると、Webページ上でキーワードが見つかると、Auto Refresh Plusはすぐにデフォルトの間隔で、ページの自動更新を開始します。"
+   },
+   "opt_msg4": {
+      "message": "ここに特定のURLを入力すると、現在使用しているタブではなく、こちらのURLを更新します。例えば、Google.comを設定に保存しておき、Yahoo.comで自動更新を開始すると、現在見ているページではなく、Google.comが更新されます。"
+   },
+   "opt_msg5": {
+      "message": "カウントダウンモードを有効にする"
+   },
+   "opt_msg6": {
+      "message": "一定の時間が経過した後に、特定のページでページの更新を実行することは、Auto Refresh Plusのカウントダウンタイマーで可能です。有効にして時間を設定するだけで、カウントダウンタイマーが開始されます。カウントダウンがゼロになると、Auto Refresh Plusは設定されたデフォルトの間隔で再びページの更新を開始します。"
+   },
+   "opt_msg7": {
+      "message": "Auto Refresh Plusのポップアップにカウントダウンモードを追加する"
+   },
+   "opt_msg8": {
+      "message": "ここにデフォルトの監視キーワードを追加します。また、拡張機能のポップアップから、各ウェブサイトのカスタムキーワードを追加することもできます。"
+   },
+   "opt_msg9": {
+      "message": "任意のウェブページが、定義されたキーワードを見つけたり失ったりした場合には、自動的に通知されます。"
+   },
+   "options": {
+      "message": "オプション"
+   },
+   "other_products": {
+      "message": "その他の製品"
+   },
+   "page_monitor": {
+      "message": "ページモニター"
+   },
+   "play_for": {
+      "message": "再生する"
+   },
+   "play_onlyonce": {
+      "message": "一度だけ再生する"
+   },
+   "play_sound": {
+      "message": "サウンド再生"
+   },
+   "playsound_candidate": {
+      "message": "サウンド候補１を再生（１秒）"
+   },
+   "playsound_candidate2": {
+      "message": "サウンド候補２を再生（６秒）"
+   },
+   "playsound_msg1": {
+      "message": "URLからサウンドを再生する"
+   },
+   "pm_input1": {
+      "message": "例：販売終了期限が切れました"
+   },
+   "pm_msg2": {
+      "message": "通知ボックスをクリックするまで再生する"
+   },
+   "pmp": {
+      "message": "ページモニターパターン"
+   },
+   "pmp_msg1": {
+      "message": "対象のテキスト（または正規表現）を\u003Cb>検索\u003C/b>をすると、ポップアップで通知されます。"
+   },
+   "pmp_msg2": {
+      "message": "対象のテキスト（または正規表現）を\u003Cb>失われる\u003C/b>をすると、ポップアップで通知されます。"
+   },
+   "predefined": {
+      "message": "定義済み"
+   },
+   "predefined_text": {
+      "message": "定義済みのテキスト"
+   },
+   "predefined_url": {
+      "message": "定義済みのURL"
+   },
+   "r_browser": {
+      "message": "ブラウザ再起動時の更新"
+   },
+   "random_interval": {
+      "message": "ランダムな間隔"
+   },
+   "rate_us": {
+      "message": "私共を評価する"
+   },
+   "ratings": {
+      "message": "評価"
+   },
+   "ratings_msg": {
+      "message": "ウェブストアで星５つの評価をお願いいたします"
+   },
+   "ratings_msg2": {
+      "message": "もちろんです！始めましょう。"
+   },
+   "refresh_number": {
+      "message": "リフレッシュ番号の設定"
+   },
+   "refresh_number_msg": {
+      "message": "（何回リフレッシュするかを設定する）"
+   },
+   "reset": {
+      "message": "設定のリセット"
+   },
+   "rpp": {
+      "message": "定義済みページの更新"
+   },
+   "rpp_body": {
+      "message": "定義済みページのコンテンツの更新"
+   },
+   "rpp_msg1": {
+      "message": "（例：google.com）"
+   },
+   "rpp_title": {
+      "message": "定義済みのページの更新"
+   },
+   "rpt": {
+      "message": "定義済みのテキストを更新する"
+   },
+   "rpt_body": {
+      "message": "定義済みのテキストコンテンツを更新する"
+   },
+   "rpt_input1": {
+      "message": "複数のテキスト／正規表現をサポートし、別のテキストを追加するにはEnterボタンを押す"
+   },
+   "rpt_title": {
+      "message": "定義済みテキストの更新"
+   },
+   "save": {
+      "message": "保存する"
+   },
+   "seconds": {
+      "message": "秒数"
+   },
+   "select_countdown": {
+      "message": "カウントダウンを選択する"
+   },
+   "select_date": {
+      "message": "日付の選択"
+   },
+   "select_time": {
+      "message": "時刻の選択"
+   },
+   "settings": {
+      "message": "設定"
+   },
+   "show_tab": {
+      "message": "タブを表示する"
+   },
+   "sound_length": {
+      "message": "音の長さ"
+   },
+   "source": {
+      "message": "情報源"
+   },
+   "source_msg": {
+      "message": "（HTMLソースコードのインラインテキスト内で検索）"
+   },
+   "specific_timemode": {
+      "message": "特定の時間モード （例：2012年１月１日　20:10:00）"
+   },
+   "start_msg": {
+      "message": "スタート"
+   },
+   "start_timer": {
+      "message": "スタートタイマー"
+   },
+   "start_timer_body": {
+      "message": "スタートタイマーのコンテンツ"
+   },
+   "start_timer_title": {
+      "message": "タイマーをスタートする"
+   },
+   "stop": {
+      "message": "ストップする"
+   },
+   "stop_sound": {
+      "message": "音をストップする"
+   },
+   "success": {
+      "message": "設定の保存に成功しました"
+   },
+   "supported_expressions": {
+      "message": "サポートされている式"
+   },
+   "test_play": {
+      "message": "テスト再生"
+   },
+   "ti_msg1": {
+      "message": "ページが更新されるまでのデフォルト時間を設定します。あらかじめ定義された時間間隔を選択するか、拡張機能のポップアップからカスタムの時間間隔をご指定いただけます。"
+   },
+   "ti_msg2": {
+      "message": "Auto Refresh Plusが行う各ページ更新の時間間隔をランダムにします。最小と最大の時間間隔を選択するだけで、拡張機能は定義された範囲内で自動的にページの更新を行います。"
+   },
+   "ti_msg3": {
+      "message": "Auto Refresh Plusのポップアップにランダムな間隔機能\tが追加されました"
+   },
+   "time": {
+      "message": "時間"
+   },
+   "time_interval": {
+      "message": "時間間隔"
+   },
+   "timer_mode": {
+      "message": "タイマーモード"
+   },
+   "up_msg1": {
+      "message": "Auto RefreshPlusがバージョンに更新されました"
+   },
+   "up_msg2": {
+      "message": "バックエンドでの電子メール通知"
+   },
+   "up_msg3": {
+      "message": "ページモニター検索にテキストモードのサポートを追加する"
+   },
+   "up_msg4": {
+      "message": "カスタム時間の10進数のバグ（クラッシュARP）"
+   },
+   "up_msg5": {
+      "message": "自動起動の空白行のバグ"
+   },
+   "up_msg6": {
+      "message": "ページモニターの$サインバグ"
+   },
+   "up_msg7": {
+      "message": "ページモニターで事前定義された自動開始URLのバグ"
+   },
+   "up_msg8": {
+      "message": "正規表現をAutoClick関数と組み合わせるとエラーバグが発生する"
+   },
+   "up_msg9": {
+      "message": "わかります"
+   },
+   "use_default": {
+      "message": "デフォルトを使用する"
+   },
+   "visual": {
+      "message": "ビジュアル"
+   },
+   "visual_msg": {
+      "message": "（ビジュアル画面に表示されているテキストの中を探す）"
+   },
+   "volume": {
+      "message": "ボリューム"
+   },
+   "whats_new": {
+      "message": "新着情報"
+   },
+   "whitelist": {
+      "message": "ホワイトリスト"
+   }
+}

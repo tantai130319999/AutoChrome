@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "Imposta la qualità video predefinita per YouTube™, in grado di supportare la risoluzione ad alta definizione"
+   },
+   "name": {
+      "message": "Auto HD/4k/8k per YouTube™ - YouTube™ Auto HD"
+   },
+   "popupAutoText": {
+      "description": "Auto",
+      "message": "Automatico"
+   },
+   "popupHeader": {
+      "description": "Popup header",
+      "message": "Imposta la qualità predefinita per YouTube™"
+   },
+   "short_name": {
+      "message": "Auto HD"
+   }
+}

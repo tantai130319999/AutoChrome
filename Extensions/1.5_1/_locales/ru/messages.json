@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "Установите качество видео YouTube™ по умолчанию с поддержкой разрешения высокой четкости."
+   },
+   "name": {
+      "message": "Авто HD/4k/8k для YouTube™ - YouTube™ Auto HD"
+   },
+   "popupAutoText": {
+      "description": "Auto",
+      "message": "автоматическая"
+   },
+   "popupHeader": {
+      "description": "Popup header",
+      "message": "Установите качество по умолчанию для YouTube™"
+   },
+   "short_name": {
+      "message": "Auto HD"
+   }
+}

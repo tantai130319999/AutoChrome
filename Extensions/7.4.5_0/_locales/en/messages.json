@@ -1,0 +1,554 @@
+{
+   "add_new": {
+      "message": "Add new"
+   },
+   "advanced": {
+      "message": "Advanced"
+   },
+   "alert_msg1": {
+      "message": "Settings reset successfully"
+   },
+   "alert_msg2": {
+      "message": "Congrats!  Auto Refresh Plus Installed Successfully"
+   },
+   "alert_msg3": {
+      "message": "Settings saved successfully"
+   },
+   "all": {
+      "message": "All"
+   },
+   "allow_incognito": {
+      "message": "Allow in incognito"
+   },
+   "any_change": {
+      "message": "Any change"
+   },
+   "any_msg": {
+      "message": "Auto Refresh Plus will notify you when any change occurs on this website"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "Refresh page automatically with powerful page monitor features"
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "Auto Refresh Plus | Page Monitor"
+   },
+   "as_msg4": {
+      "message": "Auto Refresh Plus will auto-start the page reload function when these URLs opened in your browser. It also opens all of these URLs when your browser restarts and begins auto-refresh at the desired interval."
+   },
+   "as_title": {
+      "message": "Auto start URLs"
+   },
+   "assign_hotkeys": {
+      "message": "Assign Hotkeys"
+   },
+   "ast": {
+      "message": "Countdown timer"
+   },
+   "ast_msg1": {
+      "message": "Automatically start refreshing when these URLs opened\nOne URL per line, e.g.,"
+   },
+   "ast_msg2": {
+      "message": "Autostart refresh these URLs when the browser restart"
+   },
+   "ast_specific_time": {
+      "message": "Select the specific time"
+   },
+   "auto_clicker": {
+      "message": "Auto clicker"
+   },
+   "auto_clicker_msg1": {
+      "message": "Auto click on link"
+   },
+   "auto_clicker_msg2": {
+      "message": "(If monitored text or regex have a link)"
+   },
+   "auto_start": {
+      "message": "Autostart"
+   },
+   "blacklist": {
+      "message": "Blacklist"
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "cancel_timer": {
+      "message": "Cancel Timer"
+   },
+   "chrome_language": {
+      "description": "language identifier used by Chrome",
+      "message": "en"
+   },
+   "congratulations": {
+      "message": "Congratulations"
+   },
+   "contribution": {
+      "message": "Contribution"
+   },
+   "copyright": {
+      "message": "All copyright reserved"
+   },
+   "countdown": {
+      "message": "Countdown"
+   },
+   "countdown_mode": {
+      "message": "Countdown Mode"
+   },
+   "cs_t1": {
+      "message": "When URL open"
+   },
+   "cs_t2": {
+      "message": "On each page refresh"
+   },
+   "cs_t3": {
+      "message": "When page monitor FINDS target text"
+   },
+   "cs_t4": {
+      "message": "When page monitor LOST target text"
+   },
+   "cs_t5": {
+      "message": "When any change occurs"
+   },
+   "cs_t6": {
+      "message": "Inject before page load"
+   },
+   "cs_t7": {
+      "message": "Inject after page load"
+   },
+   "custom": {
+      "message": "Custom"
+   },
+   "custom_monitor": {
+      "message": "Custom monitor"
+   },
+   "custom_scripts": {
+      "message": "Custom Scripts"
+   },
+   "date": {
+      "message": "Date"
+   },
+   "deep_source": {
+      "message": "Deep source"
+   },
+   "default_target_input": {
+      "message": "Multiple text/regex supported, to add another press enter button"
+   },
+   "default_target_text": {
+      "message": "Default target text"
+   },
+   "default_timerinterval": {
+      "message": "Default Time Interval"
+   },
+   "detect_any_change": {
+      "message": "Auto Refresh Plus has detected a change on this website"
+   },
+   "detect_any_change_title": {
+      "message": "Page Monitor"
+   },
+   "dismiss": {
+      "message": "Dismiss"
+   },
+   "donate": {
+      "message": "Donate"
+   },
+   "donation": {
+      "message": "Donation"
+   },
+   "donation_msg": {
+      "message": "\u003CB>Hi from the Auto Refresh Plus team. \u003C/B>\u003Cbr>If you found Auto Refresh Plus helpful, please consider a donation to the author"
+   },
+   "donation_msg2": {
+      "message": "I've already done"
+   },
+   "email_alert": {
+      "message": "Email alerting"
+   },
+   "enable_ri": {
+      "message": "Enable Random Interval"
+   },
+   "enable_tf": {
+      "message": "Enable this feature"
+   },
+   "feature_request": {
+      "message": "Feature Requests"
+   },
+   "find_mtr_msg": {
+      "message": "Find Monitor text in"
+   },
+   "found": {
+      "message": "Found"
+   },
+   "hard_refresh": {
+      "message": "Hard Refresh"
+   },
+   "hard_refresh_msg": {
+      "message": "(Reload the page without relying on cached data)"
+   },
+   "help_center": {
+      "message": "Help Center"
+   },
+   "home": {
+      "message": "Home"
+   },
+   "hotkeys": {
+      "message": "Hotkeys"
+   },
+   "hotkeys_msg1": {
+      "message": "Start Time Interval"
+   },
+   "hotkeys_msg2": {
+      "message": "Start Random Interval"
+   },
+   "hotkeys_msg3": {
+      "message": "Start Timer mode"
+   },
+   "hotkeys_msg4": {
+      "message": "Stop interval"
+   },
+   "hotkeys_msg5": {
+      "message": "Kill notification sound"
+   },
+   "hotkeys_title": {
+      "message": "Assign Hotkeys"
+   },
+   "hour": {
+      "message": "Hour"
+   },
+   "howto": {
+      "message": "How to"
+   },
+   "images": {
+      "message": "Images"
+   },
+   "lost": {
+      "message": "Lost"
+   },
+   "max": {
+      "message": "Max"
+   },
+   "min": {
+      "message": "Min"
+   },
+   "minute": {
+      "message": "Minute"
+   },
+   "minutes": {
+      "message": "Minutes"
+   },
+   "monitor_full_page": {
+      "message": "Monitor full page"
+   },
+   "never_playsound": {
+      "message": "Never play sound"
+   },
+   "noti_msg": {
+      "message": "Auto Refresh Plus has $action$ your target text",
+      "placeholders": {
+         "action": {
+            "content": "$1",
+            "example": ""
+         }
+      }
+   },
+   "noti_msg_title": {
+      "message": "The target text!"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "open_link_tab": {
+      "message": "Open link in new tab"
+   },
+   "opt_msg1": {
+      "message": "Refresh on URLs opening"
+   },
+   "opt_msg10": {
+      "message": "When a notification arrives, a short sound plays. The sound can be turned off or changed"
+   },
+   "opt_msg11": {
+      "message": "Customized Maximum sound duration when a notification arrives"
+   },
+   "opt_msg12": {
+      "message": "Get email notifications when a Website Changes according to page monitor settings"
+   },
+   "opt_msg13": {
+      "message": "Execute custom scripts on the page"
+   },
+   "opt_msg14": {
+      "message": "If you love playing with automation, scraping, changing default website behavior, and have some basic knowledge of JavaScript, there’s a lot you can do here."
+   },
+   "opt_msg15": {
+      "message": "What URL patterns are allowed"
+   },
+   "opt_msg16": {
+      "message": "To match both HTTP and HTTPS, just write example.com"
+   },
+   "opt_msg17": {
+      "message": "To match every page on a domain, write example.com/*"
+   },
+   "opt_msg18": {
+      "message": "To match every page on a domain and its subdomains, write *.example.com/*"
+   },
+   "opt_msg19": {
+      "message": "Set your custom keyboard shortcuts for Auto Refresh Plus actions"
+   },
+   "opt_msg2": {
+      "message": "Autostart refresh when any of these URLs open"
+   },
+   "opt_msg20": {
+      "message": "Reset Auto Refresh Plus settings"
+   },
+   "opt_msg21": {
+      "message": "\u003Cb>Are you sure\u003C/b> you would like to restore all Auto Refresh Plus settings to their default?"
+   },
+   "opt_msg22": {
+      "message": "Congrats! Auto Refresh Plus Installed Successfully"
+   },
+   "opt_msg3": {
+      "message": "Insert one or multiple keywords here, and as soon as any are found on the web page, Auto Refresh Plus will begin auto page refreshing at the default interval frequency."
+   },
+   "opt_msg4": {
+      "message": "Enter a specific URL here to refresh this URL, rather than the current tab you’re using. So, for example, if you save Google.com into the settings and then start the auto-refresh while on Yahoo.com, Google.com will be refreshing, rather than the page you’re looking at."
+   },
+   "opt_msg5": {
+      "message": "Enable countdown mode"
+   },
+   "opt_msg6": {
+      "message": "Perform a page refresh on a specific page after a certain amount of time has passed, Auto Refresh Plus’s countdown timer lets you do it. Simply enable and set the time, and the countdown timer will begin. Once the countdown reaches zero, Auto Refresh Plus will begin refreshing the page again at the set default intervals."
+   },
+   "opt_msg7": {
+      "message": "Countdown mode added in Auto Refresh Plus popup"
+   },
+   "opt_msg8": {
+      "message": "Add default monitoring keywords here. You can also add custom keywords for each website from the extension popup"
+   },
+   "opt_msg9": {
+      "message": "Automatically get notified when any given webpage has found or lost your defined keyword"
+   },
+   "options": {
+      "message": "Options"
+   },
+   "other_products": {
+      "message": "Other Products"
+   },
+   "page_monitor": {
+      "message": "Page Monitor"
+   },
+   "play_for": {
+      "message": "Play for"
+   },
+   "play_onlyonce": {
+      "message": "Play only once"
+   },
+   "play_sound": {
+      "message": "Play Sound"
+   },
+   "playsound_candidate": {
+      "message": "Play sound candidate 1 (1 second)"
+   },
+   "playsound_candidate2": {
+      "message": "Play sound candidate 2 (6 seconds)"
+   },
+   "playsound_msg1": {
+      "message": "Play sound from URL"
+   },
+   "pm_input1": {
+      "message": "Example: sold ended expired"
+   },
+   "pm_msg2": {
+      "message": "Play until I click the notification box"
+   },
+   "pmp": {
+      "message": "Page Monitor Pattern"
+   },
+   "pmp_msg1": {
+      "message": "Popup Notification once it \u003Cb>FINDS\u003C/b> the target text (or regex)"
+   },
+   "pmp_msg2": {
+      "message": "Popup Notification once it \u003Cb>LOSES\u003C/b> the target text (or regex)"
+   },
+   "predefined": {
+      "message": "Predefined"
+   },
+   "predefined_text": {
+      "message": "Predefined text"
+   },
+   "predefined_url": {
+      "message": "Predefined URL"
+   },
+   "r_browser": {
+      "message": "Refresh on Browser Restart"
+   },
+   "random_interval": {
+      "message": "Random Interval"
+   },
+   "rate_us": {
+      "message": "Rate us"
+   },
+   "ratings": {
+      "message": "Ratings"
+   },
+   "ratings_msg": {
+      "message": "Please rate us five stars on webstore"
+   },
+   "ratings_msg2": {
+      "message": "Sure! let's begin"
+   },
+   "refresh_number": {
+      "message": "Set Refresh Number"
+   },
+   "refresh_number_msg": {
+      "message": "(Set how many times you want to refresh)"
+   },
+   "reset": {
+      "message": "Reset settings"
+   },
+   "rpp": {
+      "message": "Refresh predefined page"
+   },
+   "rpp_body": {
+      "message": "Refresh Predefined Page Content"
+   },
+   "rpp_msg1": {
+      "message": "(e.g., google.com)"
+   },
+   "rpp_title": {
+      "message": "Refresh Predefined Page"
+   },
+   "rpt": {
+      "message": "Refresh Predefined text"
+   },
+   "rpt_body": {
+      "message": "Refresh Predefined Text Content"
+   },
+   "rpt_input1": {
+      "message": "Multiple text/regex supported, to add another press enter button"
+   },
+   "rpt_title": {
+      "message": "Refresh Predefined Text"
+   },
+   "save": {
+      "message": "Save"
+   },
+   "seconds": {
+      "message": "Seconds"
+   },
+   "select_countdown": {
+      "message": "Select countdown"
+   },
+   "select_date": {
+      "message": "Select date"
+   },
+   "select_time": {
+      "message": "Select time"
+   },
+   "settings": {
+      "message": "Settings"
+   },
+   "show_tab": {
+      "message": "Show tab"
+   },
+   "sound_length": {
+      "message": "Sound length"
+   },
+   "source": {
+      "message": "Source"
+   },
+   "source_msg": {
+      "message": "(Find inside the inline text in HTML source code)"
+   },
+   "specific_timemode": {
+      "message": "Specific Time Mode (e.g., 2012-01-01 20:10:00)"
+   },
+   "start_msg": {
+      "message": "Start"
+   },
+   "start_timer": {
+      "message": "Start timer"
+   },
+   "start_timer_body": {
+      "message": "Start Timer Content"
+   },
+   "start_timer_title": {
+      "message": "Start Timer"
+   },
+   "stop": {
+      "message": "Stop"
+   },
+   "stop_sound": {
+      "message": "Stop Sound"
+   },
+   "success": {
+      "message": "Settings saved successfully"
+   },
+   "supported_expressions": {
+      "message": "Supported Expressions"
+   },
+   "test_play": {
+      "message": "Test play"
+   },
+   "ti_msg1": {
+      "message": "Set the default time for every page refresh. You can select either the pre-defined time intervals or provide your custom time interval from the extension popup"
+   },
+   "ti_msg2": {
+      "message": "Randomize the time interval of each page refresh that Auto Refresh Plus makes. All that you need to do is choose a minimum and maximum time duration, and the extension will perform automatic page refreshes between the defined range"
+   },
+   "ti_msg3": {
+      "message": "Random Interval function added in Auto Refresh Plus popup"
+   },
+   "time": {
+      "message": "Time"
+   },
+   "time_interval": {
+      "message": "Time interval"
+   },
+   "timer_mode": {
+      "message": "Timer mode"
+   },
+   "up_msg1": {
+      "message": "Auto Refresh Plus updated to version "
+   },
+   "up_msg2": {
+      "message": "Email Notification in the backend"
+   },
+   "up_msg3": {
+      "message": "Add textmode support in Page-Monitor search"
+   },
+   "up_msg4": {
+      "message": "Decimals Bug in custom time ( Crash ARP )"
+   },
+   "up_msg5": {
+      "message": "Blank line bug in Auto-Start"
+   },
+   "up_msg6": {
+      "message": "$ sign bug in Page-Monitor"
+   },
+   "up_msg7": {
+      "message": "Predefined Autostart URL bug with page-Monitor"
+   },
+   "up_msg8": {
+      "message": "Error bug when combining regex with AutoClick Function"
+   },
+   "up_msg9": {
+      "message": "I understand"
+   },
+   "use_default": {
+      "message": "Use default"
+   },
+   "visual": {
+      "message": "Visual"
+   },
+   "visual_msg": {
+      "message": "(Find inside the text you see on the visual screen)"
+   },
+   "volume": {
+      "message": "Volume"
+   },
+   "whats_new": {
+      "message": "What's new?"
+   },
+   "whitelist": {
+      "message": "Whitelist"
+   }
+}

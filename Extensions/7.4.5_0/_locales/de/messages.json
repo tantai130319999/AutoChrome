@@ -1,0 +1,554 @@
+{
+   "add_new": {
+      "message": "Neu hinzufügen"
+   },
+   "advanced": {
+      "message": "Erweitert"
+   },
+   "alert_msg1": {
+      "message": "Einstellungen erfolgreich zurückgesetzt"
+   },
+   "alert_msg2": {
+      "message": "Herzlichen Glückwunsch! Auto Refresh Plus wurde erfolgreich installiert"
+   },
+   "alert_msg3": {
+      "message": "Einstellungen erfolgreich gespeichert"
+   },
+   "all": {
+      "message": "Alle"
+   },
+   "allow_incognito": {
+      "message": "Erlauben im Inkognito"
+   },
+   "any_change": {
+      "message": "Beliebige Änderung"
+   },
+   "any_msg": {
+      "message": "Bei jeder Änderung auf dieser Website wird Auto Refresh Plus Sie benachrichtigen"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "Seite automatisch aktualisieren mit leistungsstarken Seitenüberwachungsfunktionen"
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "Auto Refresh Plus | Seitenmonitor"
+   },
+   "as_msg4": {
+      "message": "Die Funktion \"Auto Refresh Plus\" startet automatisch das Neuladen der Seite, wenn diese URLs in Ihrem Browser geöffnet werden. Es öffnet auch alle diese URLs, wenn Ihr Browser neu gestartet wird, und beginnt mit dem automatischen Neuladen im gewünschten Intervall."
+   },
+   "as_title": {
+      "message": "URLs automatisch starten"
+   },
+   "assign_hotkeys": {
+      "message": "Tastenkombinationen hinzufügen"
+   },
+   "ast": {
+      "message": "Countdown-Timer"
+   },
+   "ast_msg1": {
+      "message": "Eine URL pro Zeile, z. B,"
+   },
+   "ast_msg2": {
+      "message": "Autostart aktualisiert diese URLs beim Neustart des Browsers"
+   },
+   "ast_specific_time": {
+      "message": "Bestimmte Zeit auswählen"
+   },
+   "auto_clicker": {
+      "message": "Automatischer Klicker"
+   },
+   "auto_clicker_msg1": {
+      "message": "Link automatisch anklicken"
+   },
+   "auto_clicker_msg2": {
+      "message": "(Wenn überwachter Text oder Regex einen Link haben)"
+   },
+   "auto_start": {
+      "message": "Autostart"
+   },
+   "blacklist": {
+      "message": "Schwarze Liste"
+   },
+   "cancel": {
+      "message": "Abbrechen"
+   },
+   "cancel_timer": {
+      "message": "Timer abbrechen"
+   },
+   "chrome_language": {
+      "description": "language identifier used by Chrome",
+      "message": "de"
+   },
+   "congratulations": {
+      "message": "Herzliche Glückwünsche"
+   },
+   "contribution": {
+      "message": "Beitrag"
+   },
+   "copyright": {
+      "message": "Alle Rechte vorbehalten"
+   },
+   "countdown": {
+      "message": "Countdown"
+   },
+   "countdown_mode": {
+      "message": "Countdown-Modus"
+   },
+   "cs_t1": {
+      "message": "Bei geöffneter URL"
+   },
+   "cs_t2": {
+      "message": "Bei jeder Seitenaktualisierung"
+   },
+   "cs_t3": {
+      "message": "Wenn der Seitenmonitor den Zieltext findet"
+   },
+   "cs_t4": {
+      "message": "Wenn Seitenmonitor Zieltext VERLOREN"
+   },
+   "cs_t5": {
+      "message": "Wenn eine Änderung auftritt"
+   },
+   "cs_t6": {
+      "message": "Vor dem Laden der Seite injizieren"
+   },
+   "cs_t7": {
+      "message": "Nach dem Laden der Seite injizieren"
+   },
+   "custom": {
+      "message": "Benutzerdefiniert"
+   },
+   "custom_monitor": {
+      "message": "Benutzerdefinierter Monitor"
+   },
+   "custom_scripts": {
+      "message": "Benutzerdefinierte Skripte"
+   },
+   "date": {
+      "message": "Datum"
+   },
+   "deep_source": {
+      "message": "Tiefe Quelle"
+   },
+   "default_target_input": {
+      "message": "Mehrere Texte/Regex unterstützt, zum Hinzufügen eines weiteren drücken Sie die Eingabetaste"
+   },
+   "default_target_text": {
+      "message": "Standard-Zieltext"
+   },
+   "default_timerinterval": {
+      "message": "Standard-Zeitintervall"
+   },
+   "detect_any_change": {
+      "message": "Auto Refresh Plus hat eine Änderung auf dieser Website erkannt"
+   },
+   "detect_any_change_title": {
+      "message": "Seitenmonitoring"
+   },
+   "dismiss": {
+      "message": "verwerfen"
+   },
+   "donate": {
+      "message": "Spenden"
+   },
+   "donation": {
+      "message": "Spende"
+   },
+   "donation_msg": {
+      "message": "\u003CB>Hallo vom Auto Refresh Plus Team. \u003C/B>\u003Cbr>Wenn Sie Auto Refresh Plus hilfreich fanden, ziehen Sie bitte eine Spende an den Autor in Betracht"
+   },
+   "donation_msg2": {
+      "message": "Schon gemacht!"
+   },
+   "email_alert": {
+      "message": "E-Mail-Benachrichtigung"
+   },
+   "enable_ri": {
+      "message": "Zufälliges Intervall einschalten"
+   },
+   "enable_tf": {
+      "message": "Diese Funktion aktivieren"
+   },
+   "feature_request": {
+      "message": "Feature-Anforderungen"
+   },
+   "find_mtr_msg": {
+      "message": "Monitortext finden in"
+   },
+   "found": {
+      "message": "Gefunden"
+   },
+   "hard_refresh": {
+      "message": "Hartes Aktualisieren"
+   },
+   "hard_refresh_msg": {
+      "message": "(Lädt die Seite neu, ohne sich auf zwischengespeicherte Daten zu verlassen)"
+   },
+   "help_center": {
+      "message": "Hilfe-Center"
+   },
+   "home": {
+      "message": "Startseite"
+   },
+   "hotkeys": {
+      "message": "Tastenkombinationen"
+   },
+   "hotkeys_msg1": {
+      "message": "Startzeitintervall"
+   },
+   "hotkeys_msg2": {
+      "message": "Start Zufallsintervall"
+   },
+   "hotkeys_msg3": {
+      "message": "Start Timer-Modus"
+   },
+   "hotkeys_msg4": {
+      "message": "Stop Intervall"
+   },
+   "hotkeys_msg5": {
+      "message": "Kill-Benachrichtigungston"
+   },
+   "hotkeys_title": {
+      "message": "Tastenkombinationen zuweisen"
+   },
+   "hour": {
+      "message": "Stunde"
+   },
+   "howto": {
+      "message": "Wie zu"
+   },
+   "images": {
+      "message": "Bilder"
+   },
+   "lost": {
+      "message": "Verloren"
+   },
+   "max": {
+      "message": "Max"
+   },
+   "min": {
+      "message": "Min"
+   },
+   "minute": {
+      "message": "Minute"
+   },
+   "minutes": {
+      "message": "Minuten"
+   },
+   "monitor_full_page": {
+      "message": "Monitor ganze Seite"
+   },
+   "never_playsound": {
+      "message": "Ton nie abspielen"
+   },
+   "noti_msg": {
+      "message": "Auto Refresh Plus hat $action$ Ihren Zieltext",
+      "placeholders": {
+         "action": {
+            "content": "$1",
+            "example": ""
+         }
+      }
+   },
+   "noti_msg_title": {
+      "message": "Der Zieltext!"
+   },
+   "ok": {
+      "message": "Ok"
+   },
+   "open_link_tab": {
+      "message": "Link in neuer Registerkarte öffnen"
+   },
+   "opt_msg1": {
+      "message": "Aktualisieren beim Öffnen von URLs"
+   },
+   "opt_msg10": {
+      "message": "Wenn eine Benachrichtigung eintrifft, wird ein kurzer Ton abgespielt. Der Ton kann ausgeschaltet oder geändert werden"
+   },
+   "opt_msg11": {
+      "message": "Benutzerdefiniert Maximale Tondauer bei Eintreffen einer Benachrichtigung"
+   },
+   "opt_msg12": {
+      "message": "E-Mail-Benachrichtigungen erhalten, wenn sich eine Website gemäß den Einstellungen des Seitenmonitors ändert"
+   },
+   "opt_msg13": {
+      "message": "Benutzerdefinierte Skripte auf der Seite ausführen"
+   },
+   "opt_msg14": {
+      "message": "Falls Sie gerne mit Automatisierung, Scraping und dem Ändern des Standardverhaltens von Websites spielen und über einige Grundkenntnisse in JavaScript verfügen, können Sie hier eine Menge tun."
+   },
+   "opt_msg15": {
+      "message": "Welche URL-Muster erlaubt sind"
+   },
+   "opt_msg16": {
+      "message": "Um sowohl HTTP als auch HTTPS abzugleichen, schreiben Sie einfach example.com"
+   },
+   "opt_msg17": {
+      "message": "Um jede Seite einer Domain zu finden, schreiben Sie example.com/*"
+   },
+   "opt_msg18": {
+      "message": "Um jede Seite einer Domain und ihrer Subdomains zu finden, schreiben Sie *.example.com/*"
+   },
+   "opt_msg19": {
+      "message": "Legen Sie Ihre eigenen Tastenkombinationen für Auto Refresh Plus-Aktionen fest"
+   },
+   "opt_msg2": {
+      "message": "Automatisches Aktualisieren, wenn eine der folgenden URLs geöffnet wird"
+   },
+   "opt_msg20": {
+      "message": "Auto-Refresh-Plus-Einstellungen zurücksetzen"
+   },
+   "opt_msg21": {
+      "message": "\u003Cb>Sind Sie sicher\u003C/b>, dass Sie alle Einstellungen von Auto Refresh Plus auf die Standardwerte zurücksetzen möchten?"
+   },
+   "opt_msg22": {
+      "message": "Herzlichen Glückwunsch! Auto Refresh Plus wurde erfolgreich installiert"
+   },
+   "opt_msg3": {
+      "message": "Hier ein oder mehrere Schlüsselwörter eingeben, und sobald eines davon auf der Webseite gefunden wird, beginnt Auto Refresh Plus mit der automatischen Aktualisierung der Seite in der voreingestellten Intervallfrequenz."
+   },
+   "opt_msg4": {
+      "message": "Hier eine bestimmte URL eingeben, um diese URL zu aktualisieren, und nicht die aktuelle Registerkarte, die Sie gerade verwenden. Wenn Sie also z. B. Google.com in den Einstellungen speichern und dann die automatische Aktualisierung starten, während Sie auf Yahoo.com sind, wird Google.com aktualisiert und nicht die Seite, die Sie gerade betrachten."
+   },
+   "opt_msg5": {
+      "message": "Aktivieren des Countdown-Modus"
+   },
+   "opt_msg6": {
+      "message": "Eine Seite nach Ablauf einer bestimmten Zeit zu aktualisieren, ist mit dem Countdown-Timer von Auto Refresh Plus möglich. Aktivieren Sie einfach die Funktion und stellen Sie die Zeit ein, dann beginnt der Countdown-Timer. Sobald der Countdown Null erreicht, beginnt Auto Refresh Plus, die Seite in den eingestellten Standardintervallen erneut zu aktualisieren."
+   },
+   "opt_msg7": {
+      "message": "Countdown-Modus im Auto Refresh Plus Popup hinzugefügt"
+   },
+   "opt_msg8": {
+      "message": "Hier können Sie Standard-Überwachungsschlüsselwörter hinzufügen. Sie können auch benutzerdefinierte Schlüsselwörter für jede Website über das Popup der Erweiterung hinzufügen"
+   },
+   "opt_msg9": {
+      "message": "Automatische Benachrichtigung, wenn eine bestimmte Webseite Ihr definiertes Schlüsselwort gefunden oder verloren hat"
+   },
+   "options": {
+      "message": "Optionen"
+   },
+   "other_products": {
+      "message": "Andere Produkte"
+   },
+   "page_monitor": {
+      "message": "Seite Monitor"
+   },
+   "play_for": {
+      "message": "Spielen für"
+   },
+   "play_onlyonce": {
+      "message": "Nur einmal abspielen"
+   },
+   "play_sound": {
+      "message": "Ton abspielen"
+   },
+   "playsound_candidate": {
+      "message": "Ton abspielen Kandidat 1 (1 Sekunde)"
+   },
+   "playsound_candidate2": {
+      "message": "Tonkandidat 2 abspielen (6 Sekunden)"
+   },
+   "playsound_msg1": {
+      "message": "Ton von URL abspielen"
+   },
+   "pm_input1": {
+      "message": "Beispiel: Verkaufsende abgelaufen"
+   },
+   "pm_msg2": {
+      "message": "Abspielen, bis ich die Benachrichtigungsbox anklicke"
+   },
+   "pmp": {
+      "message": "Seite Monitor-Muster"
+   },
+   "pmp_msg1": {
+      "message": "Popup-Benachrichtigung, sobald es den Zieltext (oder Regex) \u003Cb>FINDET\u003C/b>"
+   },
+   "pmp_msg2": {
+      "message": "Popup-Benachrichtigung, sobald es den Zieltext (oder regex) \u003Cb>VERLIERT\u003C/b>"
+   },
+   "predefined": {
+      "message": "Vordefiniert"
+   },
+   "predefined_text": {
+      "message": "Vordefinierter Text"
+   },
+   "predefined_url": {
+      "message": "Vordefinierte URL"
+   },
+   "r_browser": {
+      "message": "Aktualisieren bei Browser-Neustart"
+   },
+   "random_interval": {
+      "message": "Zufälliges Intervall"
+   },
+   "rate_us": {
+      "message": "Bewerten Sie uns"
+   },
+   "ratings": {
+      "message": "Bewertungen"
+   },
+   "ratings_msg": {
+      "message": "Bitte bewerten Sie uns mit fünf Sternen im Webstore"
+   },
+   "ratings_msg2": {
+      "message": "Klar! Fangen wir an"
+   },
+   "refresh_number": {
+      "message": "Aktualisierungsnummer einstellen"
+   },
+   "refresh_number_msg": {
+      "message": "(Stellen Sie ein, wie oft Sie aktualisieren möchten)"
+   },
+   "reset": {
+      "message": "Einstellungen zurücksetzen"
+   },
+   "rpp": {
+      "message": "Vordefinierte Seite aktualisieren"
+   },
+   "rpp_body": {
+      "message": "Vordefinierten Seiteninhalt aktualisieren"
+   },
+   "rpp_msg1": {
+      "message": "(z. B. google.com)"
+   },
+   "rpp_title": {
+      "message": "Vordefinierte Seite aktualisieren"
+   },
+   "rpt": {
+      "message": "Vordefinierten Text aktualisieren"
+   },
+   "rpt_body": {
+      "message": "Vordefinierten Textinhalt aktualisieren"
+   },
+   "rpt_input1": {
+      "message": "Mehrere Texte/Regex unterstützt, zum Hinzufügen eines weiteren drücken Sie die Eingabetaste"
+   },
+   "rpt_title": {
+      "message": "Vordefinierten Text aktualisieren"
+   },
+   "save": {
+      "message": "Speichern"
+   },
+   "seconds": {
+      "message": "Sekunden"
+   },
+   "select_countdown": {
+      "message": "Countdown auswählen"
+   },
+   "select_date": {
+      "message": "Datum wählen"
+   },
+   "select_time": {
+      "message": "Zeit wählen"
+   },
+   "settings": {
+      "message": "Einstellungen"
+   },
+   "show_tab": {
+      "message": "Registerkarte anzeigen"
+   },
+   "sound_length": {
+      "message": "Tonlänge"
+   },
+   "source": {
+      "message": "Quelle"
+   },
+   "source_msg": {
+      "message": "(Innerhalb des Inline-Textes im HTML-Quellcode zu finden)"
+   },
+   "specific_timemode": {
+      "message": "Spezifischer Zeitmodus (z. B. 2012-01-01 20:10:00)"
+   },
+   "start_msg": {
+      "message": "Start"
+   },
+   "start_timer": {
+      "message": "Timer starten"
+   },
+   "start_timer_body": {
+      "message": "Start Timer Inhalt"
+   },
+   "start_timer_title": {
+      "message": "Start Timer"
+   },
+   "stop": {
+      "message": "Stoppen"
+   },
+   "stop_sound": {
+      "message": "Ton stoppen"
+   },
+   "success": {
+      "message": "Einstellungen erfolgreich gespeichert"
+   },
+   "supported_expressions": {
+      "message": "Unterstützte Ausdrücke"
+   },
+   "test_play": {
+      "message": "Wiedergabe testen"
+   },
+   "ti_msg1": {
+      "message": "Stellen Sie die Standardzeit für jede Seitenaktualisierung ein. Sie können entweder die vordefinierten Zeitintervalle auswählen oder Ihr benutzerdefiniertes Zeitintervall im Popup-Fenster der Erweiterung angeben"
+   },
+   "ti_msg2": {
+      "message": "Stellen Sie das Zeitintervall für jede Seitenaktualisierung, die Auto Refresh Plus durchführt, zufällig ein. Alles, was Sie tun müssen, ist eine minimale und maximale Zeitdauer zu wählen, und die Erweiterung wird automatische Seitenaktualisierungen zwischen dem definierten Bereich durchführen"
+   },
+   "ti_msg3": {
+      "message": "Funktion \"Zufälliges Intervall\" im Popup von Auto Refresh Plus hinzugefügt"
+   },
+   "time": {
+      "message": "Zeit"
+   },
+   "time_interval": {
+      "message": "Zeitintervall"
+   },
+   "timer_mode": {
+      "message": "Timer-Modus"
+   },
+   "up_msg1": {
+      "message": "Auto Refresh Plus auf Version aktualisiert"
+   },
+   "up_msg2": {
+      "message": "E-Mail-Benachrichtigung im Backend"
+   },
+   "up_msg3": {
+      "message": "Textmodus-Unterstützung in der Page-Monitor-Suche hinzufügen"
+   },
+   "up_msg4": {
+      "message": "Dezimalfehler in benutzerdefinierter Zeit ( Crash ARP )"
+   },
+   "up_msg5": {
+      "message": "Leerzeilenfehler im Auto-Start"
+   },
+   "up_msg6": {
+      "message": "$ Zeichenfehler im Page-Monitor"
+   },
+   "up_msg7": {
+      "message": "Vordefinierter Autostart-URL-Bug mit Seiten-Monitor"
+   },
+   "up_msg8": {
+      "message": "Fehler beim Kombinieren von Regex mit AutoClick-Funktion"
+   },
+   "up_msg9": {
+      "message": "ich verstehe"
+   },
+   "use_default": {
+      "message": "Standard verwenden"
+   },
+   "visual": {
+      "message": "Visuell"
+   },
+   "visual_msg": {
+      "message": "(Suchen Sie innerhalb des Textes, den Sie auf dem visuellen Bildschirm sehen)"
+   },
+   "volume": {
+      "message": "Lautstärke"
+   },
+   "whats_new": {
+      "message": "Was gibt' s Neues?"
+   },
+   "whitelist": {
+      "message": "Weißliste"
+   }
+}

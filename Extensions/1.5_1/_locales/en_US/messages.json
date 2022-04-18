@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "Automatically set your default YouTube™ video quality with this great new Auto HD, supporting high definition resolution HD/4k/8k."
+   },
+   "name": {
+      "message": "Auto HD/4k/8k for YouTube™ - YouTube™ Auto HD"
+   },
+   "popupAutoText": {
+      "description": "Auto",
+      "message": "Auto"
+   },
+   "popupHeader": {
+      "description": "Popup header",
+      "message": "Set default quality for YouTube™"
+   },
+   "short_name": {
+      "message": "Auto HD"
+   }
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <style>
+      * {
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        font-size: 14px;
+      }
+      hr {
+        border-color: rgba(255, 255, 255, 0.5);
+        border-top: 1px solid rgba(167, 155, 155, 0.5);
+      }
+      main {
+        height: auto;
+        width: 350px;
+        outline: none;
+        margin: 10px;
+      }
+
+      main > h1 {
+        color: red;
+        font-size: 21px;
+      }
+
+      #status, #updates > p::before {
+        font-size: 14px;
+        font-weight: bold;
+      }
+      #updates {
+        counter-reset: p;
+      }
+      #updates > p::before {
+        counter-increment: p;
+        content: "Update "counter(p)": ";
+      }
+      #status::before {
+        content: "Status: ";
+      }
+
+      #status > ok {
+        color: rgb(27, 189, 167);
+      }
+      #status > minor {
+        color: rgb(254, 187, 0);
+      }
+      #status > major {
+        color: rgb(189, 27, 94);
+      }
+
+      #status > ok::before {
+        content: "\2713";
+        margin-right: 3px;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(27, 189, 167);
+      }
+
+      #status > minor::before {
+        content: "\26A0";
+        margin-right: 3px;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(254, 187, 0);
+      }
+
+      #status > major::before {
+        content: "\274C";
+        margin-right: 3px;
+        font-size: 14px;
+        font-weight: bold;
+        color: rgb(189, 27, 94);
+      }
+
+      .switch {
+        position: relative;
+        display: block;
+        vertical-align: top;
+        width: 95%;
+        height: 30px;
+        padding: 3px;
+        margin: auto;
+        background: linear-gradient(to bottom, #eeeeee, #FFFFFF 25px);
+        background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF 25px);
+        border-radius: 18px;
+        box-shadow: inset 0 -1px white, inset 0 1px 1px rgba(0, 0, 0, 0.05);
+        cursor: pointer;
+        box-sizing:content-box;
+      }
+      .switch-input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        box-sizing:content-box;
+      }
+      .switch-label {
+        position: relative;
+        display: block;
+        height: inherit;
+        font-size: 10px;
+        text-transform: uppercase;
+        background: #eceeef;
+        border-radius: inherit;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+        box-sizing:content-box;
+      }
+      .switch-label:before, .switch-label:after {
+        position: absolute;
+        top: 50%;
+        margin-top: -.5em;
+        line-height: 1;
+        -webkit-transition: inherit;
+        -moz-transition: inherit;
+        -o-transition: inherit;
+        transition: inherit;
+        box-sizing:content-box;
+      }
+      .switch-label:before {
+        content: attr(data-off);
+        right: 11px;
+        color: #aaaaaa;
+        text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+      }
+      .switch-label:after {
+        content: attr(data-on);
+        left: 11px;
+        color: #FFFFFF;
+        text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+      }
+      .switch-input:checked ~ .switch-label {
+        background: rgb(21, 167, 135);
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);
+      }
+      .switch-input:checked ~ .switch-label:before {
+        opacity: 0;
+      }
+      .switch-input:checked ~ .switch-label:after {
+        opacity: 1;
+      }
+      .switch-handle {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        width: 28px;
+        height: 28px;
+        background: linear-gradient(to bottom, #FFFFFF 40%, #f0f0f0);
+        background-image: -webkit-linear-gradient(top, #FFFFFF 40%, #f0f0f0);
+        border-radius: 100%;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+      }
+      .switch-handle:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -6px 0 0 -6px;
+        width: 12px;
+        height: 12px;
+        background: linear-gradient(to bottom, #eeeeee, #FFFFFF);
+        background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF);
+        border-radius: 6px;
+        box-shadow: inset 0 1px rgba(0, 0, 0, 0.02);
+      }
+      .switch-input:checked ~ .switch-handle {
+        left: calc(100% - 32px);
+        box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+      }
+      
+      /* Transition
+      ========================== */
+      .switch-label, .switch-handle {
+        transition: All 0.3s ease;
+        -webkit-transition: All 0.3s ease;
+        -moz-transition: All 0.3s ease;
+        -o-transition: All 0.3s ease;
+      }
+
+      .loopShuffleButton {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid gray;
+        justify-self: center;
+        margin: 0 5px;
+      }
+      .loopShuffleButton * {
+        color: inherit;
+      }
+
+      .loopShuffleButton[active]{
+        border: unset;
+      }
+      .loopShuffleButton[active] svg{
+        border: unset;
+        fill: green;
+      }
+
+      .loopShuffleButton:focus, .loopShuffleButton:hover {
+        outline: none;
+        cursor: pointer;
+      }
+      settings {
+        display: flex;
+        flex-direction: row;
+        /* text-align: center; */
+      }
+      settings section {
+        flex: 1;
+      }
+      settings section i {
+        color:rgb(21, 167, 135);
+        display: block;
+        font-size: 11px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>AutoTube</h1>
+      <hr/>
+      <div id="statusUpdatesWrapper">
+        <div id="status"> 🔄 </div>
+        <div id="updates"> </div>
+      </div>
+      <hr/>
+      <settings>
+        <section>
+          <p>
+            Auto-skip to next video:
+            <i>ON: will autoskip to next video</i>
+            <i>OFF: will not load the next video</i>
+            <i>⚠️ Doesn't apply to playlists</i>
+          </p>
+          <label class="switch">
+            <input id="autotube-skip-toggle" class="switch-input" type="checkbox" checked/>
+            <span class="switch-label" data-on="On" data-off="Off"></span> 
+            <span class="switch-handle"></span> 
+          </label>
+        </section>
+        <hr style="margin: 15px;"/>
+        <section>
+          <p>
+            Auto-click Loop/Shuffle:
+            <i>Toggle on/off</i>
+            <i>will shuffle/loop on next video</i>
+            <i>⚠️ Only works in playlists</i>
+          </p>
+          <button id="loopButton" class="loopShuffleButton" title="Loop playlist" active>
+            <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;">
+              <g> <path d="M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z"></path> </g>
+            </svg>
+          </button>
+          <button id="shuffleButton" class="loopShuffleButton" title="Shuffle playlist" active>
+            <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;">
+              <g> <path d="M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z"></path> </g>
+            </svg>
+          </button>  
+        </section>
+      </settings>
+      <hr/>
+      <p> Support: <a href="mailto:admin@moekanan.com">admin@moekanan.com</a> </p>
+      <p> If you enjoy using AutoTube, buy us a cup of coffee ☕️ We turn coffee into code 👨‍💻</p>
+      <p> 🧡 <a href="https://paypal.me/moekanan" target="_blank">https://paypal.me/moekanan</a> </p>
+      <hr/>
+      <p id="version"> Version: </p>
+    </main>
+  </body>
+  <script src="popup.js"></script>
+</html>

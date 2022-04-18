@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="__MSG_chrome_language__">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/ratings.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <title>Auto Refresh</title>
+    <style type="text/css">
+    #monitorbox {
+        display: none;
+    }
+
+    #timerbox {
+        display: none;
+    }
+
+    #timerboxdate {
+        display: none;
+    }
+
+    #randombox {
+        display: none;
+    }
+    </style>
+</head>
+
+<body class="max-500">
+    <div class="popup" data-i18n>
+        <div class="popup-header" id="header">
+            <div class="logo">
+                <span class="icon">
+                    <svg>
+                        <use xlink:href="#logo"></use>
+                    </svg>
+                </span>
+                Auto refresh Plus
+            </div>
+            <div class="header-cta">
+                <button class="btn-primary small" id="startbtn" data-state="Start">
+                    <span class="icon">
+                        <svg>
+                            <use xlink:href="#icon-power"></use>
+                        </svg>
+                    </span>
+                    <span class="btn-text" id="btn-start-msg">{{__MSG_start_msg__}}</span>
+                </button>
+                <button style="transition: all 0.5s;" class="volume-control toolTipBottom" id="mutedBtn" data-tooltip="{{__MSG_stop_sound__}}">
+                    <span class="icon">
+                        <svg>
+                            <use xlink:href="#icon-mute"></use>
+                        </svg>
+                    </span>
+                </button>
+                <button class="icon-setting toolTipBottom" data-tooltip="{{__MSG_settings__}}" id="advancedOptions">
+                    <span class="icon">
+                        <svg>
+                            <use xlink:href="#icon-setting"></use>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="popup-body">
+            <div class="tabs-container">
+                <ul class="tabs">
+                    <li class="tab" rel="tab-time-interval">
+                        {{__MSG_time_interval__}}
+                    </li>
+                    <li class="tab" rel="tab-countdown">
+                        {{__MSG_countdown__}}
+                    </li>
+                    <li class="tab" rel="tab-page-monitor">
+                        {{__MSG_page_monitor__}}
+                    </li>
+                </ul>
+                <div class="tab-content" id="tab-time-interval">
+                    <section id="timebox">
+                        <h3 class="popup--title mb-16">
+                            {{__MSG_time_interval__}}
+                            <button class="help-btn" sd-content="time_interval"></button>
+                        </h3>
+                        <div class="duration">
+                            <div class="duration--option">
+                                <div class="custom-input">
+                                    <input type="radio" id="r01" name="reloadOption" value="5000">
+                                    <span></span>
+                                </div>
+                                <label for="r01" class="radio-btn">
+                                    5 {{__MSG_seconds__}}
+                                </label>
+                            </div>
+                            <div class="duration--option">
+                                <div class="custom-input">
+                                    <input type="radio" id="r02" name="reloadOption" value="10000">
+                                    <span></span>
+                                </div>
+                                <label for="r02" class="radio-btn">
+                                    10 {{__MSG_seconds__}}
+                                </label>
+                            </div>
+                            <div class="duration--option">
+                                <div class="custom-input">
+                                    <input type="radio" id="r03" name="reloadOption" value="15000">
+                                    <span></span>
+                                </div>
+                                <label for="r03" class="radio-btn">
+                                    15 {{__MSG_seconds__}}
+                                </label>
+                            </div>
+                            <div class="duration--option">
+                                <div class="custom-input">
+                                    <input type="radio" id="r04" name="reloadOption" value="300000">
+                                    <span></span>
+                                </div>
+                                <label for="r04" class="radio-btn">
+                                    5 {{__MSG_minutes__}}
+                                </label>
+                            </div>
+                            <div class="duration--option">
+                                <div class="custom-input">
+                                    <input type="radio" id="r05" name="reloadOption" value="600000">
+                                    <span></span>
+                                </div>
+                                <label for="r05" class="radio-btn">
+                                    10 {{__MSG_minutes__}}
+                                </label>
+                            </div>
+                            <div class="duration--option">
+                                <div class="custom-input">
+                                    <input type="radio" id="r06" name="reloadOption" value="900000">
+                                    <span></span>
+                                </div>
+                                <label for="r06" class="radio-btn">
+                                    15 {{__MSG_minutes__}}
+                                </label>
+                            </div>
+                            <div class="duration--option w-100">
+                                <div class="custom-input">
+                                    <input type="radio" id="r10" name="reloadOption" value="timer">
+                                    <span></span>
+                                </div>
+                                <input type="number" min="0" name="hour" id="int_timerHour" value="0">
+                                <label for="int_timerHour" class="radio-btn">
+                                    hr
+                                </label>
+                                <input type="number" min="0" name="min" id="int_timerMin" value="10">
+                                <label for="int_timerMin" class="radio-btn">
+                                    min
+                                </label>
+                                <input type="number" min="0" name="sec" id="int_timerSec" value="0">
+                                <label for="int_timerSec" class="radio-btn">
+                                    sec
+                                </label>
+                            </div>
+                            <div class="duration--option w-100">
+                                <div class="custom-input">
+                                    <input type="radio" id="r08" name="reloadOption" value="custom">
+                                    <span></span>
+                                </div>
+                                <input type="number" min="0.25" name="custom" id="tcustom" value="12" step="0.50">
+                                <label for="r08" class="radio-btn">
+                                    {{__MSG_seconds__}}
+                                </label>
+                            </div>
+                            <div class="duration--option w-100" id="randombox">
+                                <div class="random-interval">
+                                    <div class="row-center">
+                                        <div class="custom-input">
+                                            <input type="radio" id="r07" name="reloadOption" value="rand">
+                                            <span></span>
+                                        </div>
+                                        <label for="r07" class="radio-btn">
+                                            {{__MSG_random_interval__}}
+                                        </label>
+                                    </div>
+                                    <div class="ml-16 row-center">
+                                        <div class="row-center">
+                                            <label for="tmin"><b>{{__MSG_min__}}</b></label>
+                                            <input type="number" min="1" name="custom" id="tmin" value="5">
+                                            <label for="tmin">{{__MSG_seconds__}}</label>
+                                        </div>
+                                        <div class="row-center">
+                                            <label for="tmax"><b>{{__MSG_max__}}</b></label>
+                                            <input type="number" min="1" name="custom" id="tmax" value="30">
+                                            <label for="tmax">{{__MSG_seconds__}}</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-center">
+                                <div class="custom-input">
+                                    <input type="checkbox" id="hard-refresh">
+                                    <span></span>
+                                </div>
+                                <label for="hard-refresh">
+                                    {{__MSG_hard_refresh__}} <span class="text-small">{{__MSG_hard_refresh_msg__}}</span>
+                                </label>
+                            </div>
+                            <div class="row-center">
+                                <div class="custom-input">
+                                    <input type="checkbox" id="set-refresh-num">
+                                    <span></span>
+                                </div>
+                                <label for="set-refresh-num">
+                                    {{__MSG_refresh_number__}}
+                                    <span class="text-small">
+                                        {{__MSG_refresh_number_msg__}}
+                                    </span>
+                                </label>
+                            </div>
+                            <input type="number" name="srn" id="srn-input" class="" value="1" min="1">
+                        </div>
+                    </section>
+                </div>
+                <div class="tab-content" id="tab-page-monitor">
+                    <!-- Section 2 PAGE MONITOR -->
+                    <section id="monitorbox" class="page--monitor">
+                        <h3 class="popup--title mb-16">
+                            {{__MSG_page_monitor__}}
+                        </h3>
+                        <div class="page--monitor-option">
+                            <div class="custom-input">
+                                <input type="radio" checked name="page--monitor-selection" id="page--monitor-custom">
+                                <span></span>
+                            </div>
+                            <label class="popup--subtitle" for="page--monitor-custom">
+                                {{__MSG_custom_monitor__}}
+                            </label>
+                        </div>
+                        <div class="page--monitor-option ml-32">
+                            <div class="custom-input small">
+                                <input type="radio" class="page--monitor-custom" checked name="page--monitor-custom" id="page--monitor-custom-1">
+                                <span></span>
+                            </div>
+                            <label for="page--monitor-custom-1">
+                                {{__MSG_pmp_msg1__}}
+                            </label>
+                        </div>
+                        <div class="page--monitor-option ml-32">
+                            <div class="custom-input small">
+                                <input type="radio" class="page--monitor-custom" name="page--monitor-custom" id="page--monitor-custom-2">
+                                <span></span>
+                            </div>
+                            <label for="page--monitor-custom-2">
+                                {{__MSG_pmp_msg2__}}
+                            </label>
+                        </div>
+                        <input type="hidden" id="pmpattern" value="A">
+                        <div class="page--monitor-option custom-1">
+                            <div class="tag-container">
+                                <input type="text" class="tags-input page--monitor-custom" placeholder="{{__MSG_pm_input1__}}" id="contentid" name="inp01">
+                            </div>
+                            <div class="help-text">
+                                {{__MSG_supported_expressions__}}
+                            </div>
+                        </div>
+                        <div class="page--monitor-option">
+                            <button class="btn-secondary small" id="custom--cta">
+                                {{__MSG_use_default__}}
+                            </button>
+                        </div>
+                        <div class="page--monitor-option mt-30">
+                            <div class="custom-input">
+                                <input type="radio" name="page--monitor-selection" id="page--monitor-default">
+                                <span></span>
+                            </div>
+                            <label class="popup--subtitle" for="page--monitor-default">
+                                {{__MSG_monitor_full_page__}}
+                            </label>
+                        </div>
+                        <div class="page--monitor-option js-pm-default">
+                            <div class="notification">
+                                <span class="icon">
+                                    <svg>
+                                        <use xlink:href="#icon-bell"></use>
+                                    </svg>
+                                </span>
+                                <div class="notification--content">
+                                    {{__MSG_any_msg__}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page--monitor-advanced">
+                            <div class="page--monitor-option">
+                                <h4 class="popup--title">
+                                    {{__MSG_auto_clicker__}}
+                                </h4>
+                            </div>
+                            <div class="page--monitor-option">
+                                <div class="custom-input">
+                                    <input type="checkbox" id="pgeMntrLink">
+                                    <span></span>
+                                </div>
+                                <label for="pgeMntrLink">
+                                    {{__MSG_auto_clicker_msg1__}}
+                                    <span class="text-small">
+                                        {{__MSG_auto_clicker_msg2__}}
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="page--monitor-option">
+                                <div class="custom-input">
+                                    <input type="checkbox" id="pgeMntrLinkInNewTab">
+                                    <span></span>
+                                </div>
+                                <label for="pgeMntrLinkInNewTab">
+                                    {{__MSG_open_link_tab__}}
+                                </label>
+                            </div>
+                            <div class="page--monitor-option">
+                                <h4 class="popup--title">
+                                    {{__MSG_find_mtr_msg__}}
+                                </h4>
+                            </div>
+                            <div class="page--monitor-option">
+                                <div class="custom-input">
+                                    <input type="checkbox" id="visual" checked>
+                                    <span></span>
+                                </div>
+                                <label for="visual">
+                                    {{__MSG_visual__}}
+                                    <span class="text-small">
+                                        {{__MSG_visual_msg__}}
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="page--monitor-option">
+                                <div class="custom-input">
+                                    <input type="checkbox" id="source">
+                                    <span></span>
+                                </div>
+                                <label for="source">
+                                    {{__MSG_source__}}
+                                    <span class="text-small">
+                                        {{__MSG_source_msg__}}
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- These functions appears when user will enable it from the settings page -->
+                <!-- Section 4 -->
+                <div class="tab-content" id="tab-countdown">
+                    <section id="timerbox" class="section-countdown">
+                        <h3 class="popup--title mb-16">
+                            {{__MSG_ast__}}
+                        </h3>
+                        <input type="hidden" id="timermode" value="1">
+                        <div class="countdown--option">
+                            <div class="custom-input">
+                                <input type="radio" name="countdown--option" id="countdown--option-1" checked>
+                                <span></span>
+                            </div>
+                            <label class="popup--subtitle" for="countdown--option-1">
+                                {{__MSG_countdown_mode__}}
+                                <small class="text-small">
+                                    (e.g., 2 hours 1 minute 30 seconds)
+                                </small>
+                            </label>
+                        </div>
+                        <div class="countdown--option">
+                            <input class="ml-32 countdown--mode-input" type="number" id="timerHour" name="hour" size="1" value="0" min="0">
+                            <label for="countdown--hr" class="radio-btn">
+                                {{__MSG_hour__}}
+                            </label>
+                            <input class="countdown--mode-input" id="timerMin" type="number" name="min" size="1" value="10" min="0">
+                            <label for="countdown--min" class="radio-btn">
+                                {{__MSG_minutes__}}
+                            </label>
+                            <input class="countdown--mode-input" id="timerSec" type="number" name="sec" size="1" value="0" min="0">
+                            <label for="countdown--sec" class="radio-btn">
+                                {{__MSG_seconds__}}
+                            </label>
+                        </div>
+                        <div class="countdown--option mt-30">
+                            <div class="custom-input">
+                                <input type="radio" name="countdown--option" id="countdown--option-2">
+                                <span></span>
+                            </div>
+                            <label class="popup--subtitle" for="countdown--option-2">
+                                {{__MSG_ast_specific_time__}}
+                                <small class="text-small">(e.g., 2012-01-01 20:10:00)</small>
+                            </label>
+                        </div>
+                        <div class="countdown--option ml-32">
+                            <input class="specific--mode-input" type="date" name="time" id="dateInp">
+                            <label for="dateInp">{{__MSG_select_date__}}</label>
+                        </div>
+                        <div class="countdown--option ml-32">
+                            <input class="specific--mode-input" type="time" id="timeInp" name="time">
+                            <label for="timeInp">{{__MSG_select_time__}}</label>
+                        </div>
+                        <div class="countdown--option ml-32 mt-24">
+                            <button class="btn-primary small" id="timerbtn" data-state="Start Timer">
+                                <span class="icon">
+                                    <svg>
+                                        <use xlink:href="#icon-sand-clock"></use>
+                                    </svg>
+                                </span>
+                                <span class="btn-text" id="timerbtn_msg">{{__MSG_start_timer__}}</span>
+                            </button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!-- These functions appears when user will enable it from the settings page -->
+        </div>
+        <div class="popup-footer">
+            <ul class="popup-footer-links">
+                <li>
+                    <a href="#" class="link model-init" rel="donation">
+                        <span class="icon">
+                            <svg>
+                                <use xlink:href="#icon-heart"></use>
+                            </svg>
+                        </span>
+                        <span class="link-text">{{__MSG_donate__}}</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://autorefresh.io/wishform/" target="_blank" class="link">
+                        <span class="icon">
+                            <svg>
+                                <use xlink:href="#icon-feature"></use>
+                            </svg>
+                        </span>
+                        <span class="link-text">{{__MSG_feature_request__}}</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link model-init" rel="rating-model">
+                        <span class="icon">
+                            <svg>
+                                <use xlink:href="#icon-star"></use>
+                            </svg>
+                        </span>
+                        <span class="link-text">{{__MSG_rate_us__}}</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://autorefresh.io/products/" class="link">
+                        <span class="icon">
+                            <svg>
+                                <use xlink:href="#icon-other-products"></use>
+                            </svg>
+                        </span>
+                        <span class="link-text">{{__MSG_other_products__}}</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="model" id="donation">
+            <div class="model-wrap">
+                <div class="model-header">
+                    <button class="back-btn model-close"></button>
+                    <h3 class="title">{{__MSG_donation__}}</h3>
+                </div>
+                <div class="model-body">
+                    <img src="assets/images/donation-icon.svg" alt="donation" class="model-icon">
+                    <p>
+                        {{__MSG_donation_msg__}}
+                    </p>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="donation-form">
+                        <input type="hidden" name="cmd" value="_donations">
+                        <input type="hidden" name="business" value="golemaestro@gmail.com">
+                        <input type="hidden" name="item_name" value="Support Auto Refresh Plus">
+                        <input type="hidden" name="no_note" value="1">
+                        <input type="hidden" name="currency_code" value="USD">
+                        <div class="form-control">
+                            <input type="number" name="amount" id="donation-amount" placeholder="5.0">
+                        </div>
+                        <button name="PaypalPayment" value="Send Payment" formtarget="_blank" type="submit" class="btn-primary" id="donate">{{__MSG_donate__}}</button>
+                    </form>
+                    <a href="#" class="model-close text-small">
+                        {{__MSG_donation_msg2__}}
+                    </a>
+                    <img src="assets/images/paypal-img.png" alt="paypal" class="donation-image">
+                </div>
+            </div>
+        </div>
+        <div class="model" id="rating-model">
+            <div class="model-wrap">
+                <div class="model-header">
+                    <button class="back-btn model-close"></button>
+                    <h3 class="title">{{__MSG_ratings__}}</h3>
+                </div>
+                <div class="model-body">
+                    <img src="assets/images/rating-icon.svg" alt="donation" class="model-icon">
+                    <p>
+                        {{__MSG_ratings_msg__}}
+                    </p>
+                    <div class="ratings rated" data-rating="5"></div>
+                    <a href="#" id="rating" class="btn-primary">
+                        {{__MSG_ratings_msg2__}}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/i18n.js"></script>
+    <script src="assets/js/jquery-1.5.2.min.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="assets/js/ratings.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

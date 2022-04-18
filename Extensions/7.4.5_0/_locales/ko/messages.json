@@ -1,0 +1,554 @@
+{
+   "add_new": {
+      "message": "신규 추가"
+   },
+   "advanced": {
+      "message": "고급"
+   },
+   "alert_msg1": {
+      "message": "설정이 성공적으로 재설정되었습니다."
+   },
+   "alert_msg2": {
+      "message": "축하해요! Auto Refresh 플러스가 성공적으로 설치되었습니다."
+   },
+   "alert_msg3": {
+      "message": "설정이 성공적으로 저장되었습니다."
+   },
+   "all": {
+      "message": "전체"
+   },
+   "allow_incognito": {
+      "message": "가명으로 허용"
+   },
+   "any_change": {
+      "message": "모든 변경"
+   },
+   "any_msg": {
+      "message": "Auto Refresh Plus 이 웹사이트에서 변경이 일어날 때 알려드립니다"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "강력한 페이지 모니터 기능으로 자동으로 페이지를 새로고침합니다"
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "Auto Refresh Plus | 페이지 모니터"
+   },
+   "as_msg4": {
+      "message": "이 URL들이 브라우저에서 열리면 Auto Refresh Plus 페이지 새로고침 기능을 자동으로 시작합니다. 또한 브라우저가 다시 시작되고 원하시는 간격으로 자동으로 새로고침을 시작할 때 이러한 모든 URL이 열립니다."
+   },
+   "as_title": {
+      "message": "자동시작 URL"
+   },
+   "assign_hotkeys": {
+      "message": "단축키 할당하기"
+   },
+   "ast": {
+      "message": "타이머 재기"
+   },
+   "ast_msg1": {
+      "message": "라인마다 한개의 URL, 예시."
+   },
+   "ast_msg2": {
+      "message": "브라우저를 다시 시작할 때 이 URL의 새로고침 자동시작"
+   },
+   "ast_specific_time": {
+      "message": "세부 시간 선택"
+   },
+   "auto_clicker": {
+      "message": "자동 클릭기"
+   },
+   "auto_clicker_msg1": {
+      "message": "링크에서 자동 클릭"
+   },
+   "auto_clicker_msg2": {
+      "message": "(링크에 모니터된 텍스트 또는 규정식이 있는 경우)"
+   },
+   "auto_start": {
+      "message": "자동시작"
+   },
+   "blacklist": {
+      "message": "블랙리스트"
+   },
+   "cancel": {
+      "message": "취소"
+   },
+   "cancel_timer": {
+      "message": "타이머 취소"
+   },
+   "chrome_language": {
+      "description": "language identifier used by Chrome",
+      "message": "영어"
+   },
+   "congratulations": {
+      "message": "축하합니다"
+   },
+   "contribution": {
+      "message": "기여"
+   },
+   "copyright": {
+      "message": "모든 저작권 소유"
+   },
+   "countdown": {
+      "message": "카운트다운"
+   },
+   "countdown_mode": {
+      "message": "카운트다운 모드"
+   },
+   "cs_t1": {
+      "message": "URL이 열릴때"
+   },
+   "cs_t2": {
+      "message": "각 페이지에서 새로고침"
+   },
+   "cs_t3": {
+      "message": "페이지 모니터가 대상 텍스트를 확인할 때"
+   },
+   "cs_t4": {
+      "message": "페이지 모니터가 대상 텍스트를 놓쳤을 때"
+   },
+   "cs_t5": {
+      "message": "어떤 변경이 있을 때"
+   },
+   "cs_t6": {
+      "message": "페이지 로드전에 주입"
+   },
+   "cs_t7": {
+      "message": "페이지 로드후 주입"
+   },
+   "custom": {
+      "message": "사용자 맞춤"
+   },
+   "custom_monitor": {
+      "message": "사용자 맞춤형 모니터링"
+   },
+   "custom_scripts": {
+      "message": "상ㅇ자 맞춤형 스크립트"
+   },
+   "date": {
+      "message": "날짜"
+   },
+   "deep_source": {
+      "message": "딥 소스"
+   },
+   "default_target_input": {
+      "message": "다중 텍스트/정규식이 지원됨, 다른 텍스트를 추가하려면 입력 버튼을 누르세요"
+   },
+   "default_target_text": {
+      "message": "기본 대상 텍스트"
+   },
+   "default_timerinterval": {
+      "message": "기본 시간간격"
+   },
+   "detect_any_change": {
+      "message": "자동 새로고침 플러스가 이 웹사이트의 변경을 감지했습니다"
+   },
+   "detect_any_change_title": {
+      "message": "페이지 모니터링"
+   },
+   "dismiss": {
+      "message": "종료"
+   },
+   "donate": {
+      "message": "기부하기"
+   },
+   "donation": {
+      "message": "기부"
+   },
+   "donation_msg": {
+      "message": "\u003CB>Auto Refresh 플러스팀입니다. \u003C/B>\u003Cbr>Auto Refresh 플러스가 도움이 되셨다면 제작자에 기부해 주시기를 부탁드립니다."
+   },
+   "donation_msg2": {
+      "message": "이미 했습니다"
+   },
+   "email_alert": {
+      "message": "이메일 경고"
+   },
+   "enable_ri": {
+      "message": "랜덤 구간 활성화"
+   },
+   "enable_tf": {
+      "message": "이 기능 활성화"
+   },
+   "feature_request": {
+      "message": "기능 요구사항"
+   },
+   "find_mtr_msg": {
+      "message": "다음에서 모니터링 텍스트 찾기"
+   },
+   "found": {
+      "message": "찾았습니다"
+   },
+   "hard_refresh": {
+      "message": "하드 새로고침"
+   },
+   "hard_refresh_msg": {
+      "message": "(캐시 데이터와 관련없이 페이지 새로고침)"
+   },
+   "help_center": {
+      "message": "도움말 센터"
+   },
+   "home": {
+      "message": "홈"
+   },
+   "hotkeys": {
+      "message": "단축키"
+   },
+   "hotkeys_msg1": {
+      "message": "타임 구간 시작"
+   },
+   "hotkeys_msg2": {
+      "message": "랜덤 구간 시작"
+   },
+   "hotkeys_msg3": {
+      "message": "타이머 모드 시작"
+   },
+   "hotkeys_msg4": {
+      "message": "구간 중단"
+   },
+   "hotkeys_msg5": {
+      "message": "알림음 소거"
+   },
+   "hotkeys_title": {
+      "message": "단축키 할당"
+   },
+   "hour": {
+      "message": "시간"
+   },
+   "howto": {
+      "message": "방법"
+   },
+   "images": {
+      "message": "이미지"
+   },
+   "lost": {
+      "message": "잃어버림"
+   },
+   "max": {
+      "message": "최대"
+   },
+   "min": {
+      "message": "최소"
+   },
+   "minute": {
+      "message": "분"
+   },
+   "minutes": {
+      "message": "분"
+   },
+   "monitor_full_page": {
+      "message": "전체 페이지 모니터링"
+   },
+   "never_playsound": {
+      "message": "음향 완전소거"
+   },
+   "noti_msg": {
+      "message": "Auto Refresh 플러스에 $action$ 대상 텍스트가 있습니다.",
+      "placeholders": {
+         "action": {
+            "content": "$1",
+            "example": ""
+         }
+      }
+   },
+   "noti_msg_title": {
+      "message": "대상 텍스트!"
+   },
+   "ok": {
+      "message": "확인"
+   },
+   "open_link_tab": {
+      "message": "새 탭에서 링크열기"
+   },
+   "opt_msg1": {
+      "message": "URL 열기 새로고침"
+   },
+   "opt_msg10": {
+      "message": "알림이 도착하게되면 짧은 음향이 플레이됩니다. 소리를 끄시거나 변경할 수 있습니다."
+   },
+   "opt_msg11": {
+      "message": "알림 도착시 사운드 맞춤 지속시간"
+   },
+   "opt_msg12": {
+      "message": "페이지 모니터 설정에 따른 웹사이트의 변경이 있는 경우 이메일 알림"
+   },
+   "opt_msg13": {
+      "message": "페이지에서 맞춤 스크립트 실행"
+   },
+   "opt_msg14": {
+      "message": "자동화, 스크래핑, 웹사이트의 기본 동작변경 작업을 좋아하시고, 자바스크립트에 대한 기본지식이 있으시다면 이곳에서 많은 일을 할 수 있습니다."
+   },
+   "opt_msg15": {
+      "message": "URL 패턴이 허용되는 것"
+   },
+   "opt_msg16": {
+      "message": "HTTP와 HTTPS를 일치시키시려면, example.com을 작성하기만 하면 됩니다"
+   },
+   "opt_msg17": {
+      "message": "도메인의 모든 페이지를 일치시키시려면 example.com/*을 작성하세요"
+   },
+   "opt_msg18": {
+      "message": "도메인 및 하위도메인의 모든 페이지를 일치시키시려면 *.example.com/*을 작성하세요"
+   },
+   "opt_msg19": {
+      "message": "Auto Refresh 플러스 동작를 위해 사용자지정 키보드 단축키를 설정하세요"
+   },
+   "opt_msg2": {
+      "message": "이 URL이 열릴 때 Autostart 새로고침"
+   },
+   "opt_msg20": {
+      "message": "Auto Refresh 플러스 설정 재설정하기"
+   },
+   "opt_msg21": {
+      "message": "\u003Cb>정말로\u003C/b> 모든 Auto Refresh 플러스 설정을 기본값으로 복원할까요?"
+   },
+   "opt_msg22": {
+      "message": "축하해요! Auto Refresh 플러스가 성공적으로 설치되었습니다."
+   },
+   "opt_msg3": {
+      "message": "여기에 하나 또는 여러 키워드를 삽입하세요, 그러면 웹페이지에서 어떠한 키워드가 발견되는 즉시 Auto Refresh 플러스가 기본 간격의 빈도로 자동으로 페이지 새로고침을 시작합니다."
+   },
+   "opt_msg4": {
+      "message": "당신의 현재 사용중인 탭 대신 이 URL을 새로고침하기위해 여기에 특정 URL을 입력하세요. 예를 들어 설정에 Google.com을 저장한 후 Yahoo.com에서 자동 새로고침을 시작하게되면, 보고있는 페이지 대신 Google.com이 새로고침됩니다."
+   },
+   "opt_msg5": {
+      "message": "카운트다운 모드 활성화하기"
+   },
+   "opt_msg6": {
+      "message": "특정 시간이 경과한 후 특정 페이지에서 페이지 새로 고침을 수행합니다. Auto Refresh 플러스의 카운트다운 타이머를 통해 이 작업을 수행할 수 있습니다. 시간을 활성화하고 설정하면 카운트다운 타이머가 시작됩니다. 카운트다운이 0에 도달하면 Auto Refresh Plus가 설정된 기본 간격으로 페이지를 다시 새로 고치기 시작합니다."
+   },
+   "opt_msg7": {
+      "message": "Auto Refresh 플러스 팝업에서 카운트다운 모드 추가"
+   },
+   "opt_msg8": {
+      "message": "이곳에 기본 모니터링 키워드를 추가하세요. 확장 팝업에서 각 웹사이트의 사용자 지정 키워드를 추가할 수도 있습니다"
+   },
+   "opt_msg9": {
+      "message": "부여된 웹페이지에서 지정한 키워드를 찾거나 잃어버렸을 때 자동으로 알림 받기"
+   },
+   "options": {
+      "message": "옵션"
+   },
+   "other_products": {
+      "message": "다른 제품들"
+   },
+   "page_monitor": {
+      "message": "페이지 모니터"
+   },
+   "play_for": {
+      "message": "다음을 플레이합니다"
+   },
+   "play_onlyonce": {
+      "message": "한번만 플레이합니다"
+   },
+   "play_sound": {
+      "message": "사운드 플레이"
+   },
+   "playsound_candidate": {
+      "message": "사운드 플레이 후보 1 (1초)"
+   },
+   "playsound_candidate2": {
+      "message": "사운드 플레이 후보 2 (6초)"
+   },
+   "playsound_msg1": {
+      "message": "URL에서 사운드 플레이"
+   },
+   "pm_input1": {
+      "message": "예시: 만료 및 종료된 판매"
+   },
+   "pm_msg2": {
+      "message": "알림 상자를 클릭할 때까지 플레이"
+   },
+   "pmp": {
+      "message": "페이지 모니터 패턴"
+   },
+   "pmp_msg1": {
+      "message": "한번 팝업알림 대상 텍스트 (또는 정규식)을 \u003Cb>찾습니다\u003C/b>"
+   },
+   "pmp_msg2": {
+      "message": "한번 팝업알림 대상 텍스트 (또는 정규식)을 \u003Cb>잃습니다\u003C/b>"
+   },
+   "predefined": {
+      "message": "사전 정의"
+   },
+   "predefined_text": {
+      "message": "사전 정의된 텍스트"
+   },
+   "predefined_url": {
+      "message": "사전 정의된 URL"
+   },
+   "r_browser": {
+      "message": "브라우저 재시작시 새로고침"
+   },
+   "random_interval": {
+      "message": "랜덤 간격"
+   },
+   "rate_us": {
+      "message": "평가해 주세요"
+   },
+   "ratings": {
+      "message": "점수"
+   },
+   "ratings_msg": {
+      "message": "웹스토어에서 별 5개로 평가해주세요"
+   },
+   "ratings_msg2": {
+      "message": "물론이죠! 시작해요"
+   },
+   "refresh_number": {
+      "message": "숫자 새로고침 설정"
+   },
+   "refresh_number_msg": {
+      "message": "(새로고침 희망 횟수 설정)"
+   },
+   "reset": {
+      "message": "설정 재설정"
+   },
+   "rpp": {
+      "message": "사전 정의된 페이지 새로고침"
+   },
+   "rpp_body": {
+      "message": "사전 정의된 페이지 콘텐츠 새로고침"
+   },
+   "rpp_msg1": {
+      "message": "(예시. google.com)"
+   },
+   "rpp_title": {
+      "message": "사전 정의된 페이지 새로고침"
+   },
+   "rpt": {
+      "message": "사전 정의된 텍스트 새로고침"
+   },
+   "rpt_body": {
+      "message": "사전 정의된 텍스트 콘텐츠 새로고침"
+   },
+   "rpt_input1": {
+      "message": "여러 텍스트/정규어가 지원됩니다. 다른 텍스트를 추가하려면 입력 버튼을 누르세요."
+   },
+   "rpt_title": {
+      "message": "사전 정의된 텍스트 새로고침"
+   },
+   "save": {
+      "message": "저장"
+   },
+   "seconds": {
+      "message": "초"
+   },
+   "select_countdown": {
+      "message": "카운트다운 선택"
+   },
+   "select_date": {
+      "message": "날짜 선택"
+   },
+   "select_time": {
+      "message": "시간 선택"
+   },
+   "settings": {
+      "message": "설정"
+   },
+   "show_tab": {
+      "message": "탭 보기"
+   },
+   "sound_length": {
+      "message": "사운드 길이"
+   },
+   "source": {
+      "message": "출처"
+   },
+   "source_msg": {
+      "message": "(HTML 소스 코드에서 내부 인라인 텍스트 찾기)"
+   },
+   "specific_timemode": {
+      "message": "특정시간 모드(예: 2012-01-01 20:10:00)"
+   },
+   "start_msg": {
+      "message": "시작"
+   },
+   "start_timer": {
+      "message": "타이머 시작"
+   },
+   "start_timer_body": {
+      "message": "타이머 콘텐츠 시작"
+   },
+   "start_timer_title": {
+      "message": "타이머 시작"
+   },
+   "stop": {
+      "message": "중지"
+   },
+   "stop_sound": {
+      "message": "사운드 중지"
+   },
+   "success": {
+      "message": "설정이 성공적으로 저장되었습니다"
+   },
+   "supported_expressions": {
+      "message": "지원되는 표현식"
+   },
+   "test_play": {
+      "message": "테스트 플레이"
+   },
+   "ti_msg1": {
+      "message": "페이지 새로고침시마다 기본 시간을 설정합니다. 사전 정의된 시간 간격을 선택하거나 확장 팝업에서 사용자정의 시간 간격을 지정할 수 있습니다."
+   },
+   "ti_msg2": {
+      "message": "Auto Refresh 플러스에서 수행하는 각 페이지 새로고침의 시간 간격을 랜덤으로 설정합니다. 최소 및 최대 시간만 선택하면 확장이 정의된 범위내에서 자동 페이지 새로 고침을 수행합니다."
+   },
+   "ti_msg3": {
+      "message": "Auto Refresh 플러스 팝업에서 추가된 임의 간격 기능"
+   },
+   "time": {
+      "message": "시간"
+   },
+   "time_interval": {
+      "message": "시간 간격"
+   },
+   "timer_mode": {
+      "message": "타이머 모드"
+   },
+   "up_msg1": {
+      "message": "Auto Refresh Plus가 버전으로 업데이트되었습니다."
+   },
+   "up_msg2": {
+      "message": "백엔드의 이메일 알림"
+   },
+   "up_msg3": {
+      "message": "Page-Monitor 검색에서 텍스트 모드 지원 추가"
+   },
+   "up_msg4": {
+      "message": "사용자 지정 시간의 소수 버그(Crash ARP)"
+   },
+   "up_msg5": {
+      "message": "자동 시작의 빈 줄 버그"
+   },
+   "up_msg6": {
+      "message": "Page-Monitor의 $ 기호 버그"
+   },
+   "up_msg7": {
+      "message": "페이지 모니터에 미리 정의된 자동 시작 URL 버그"
+   },
+   "up_msg8": {
+      "message": "정규식을 AutoClick 함수와 결합할 때 오류 버그"
+   },
+   "up_msg9": {
+      "message": "이해 했어요"
+   },
+   "use_default": {
+      "message": "기본설정 사용"
+   },
+   "visual": {
+      "message": "시각"
+   },
+   "visual_msg": {
+      "message": "(시각적 화면에 표시되는 내부 텍스트를 찾으세요.)"
+   },
+   "volume": {
+      "message": "볼륨"
+   },
+   "whats_new": {
+      "message": "새로운 것이 있나요?"
+   },
+   "whitelist": {
+      "message": "화이트리스트"
+   }
+}

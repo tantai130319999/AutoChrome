@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "ضبط جودة الفيديو الافتراضية لـ YouTube™ عندك، مع دعم الدقة عالية الوضوح."
+   },
+   "name": {
+      "message": "Auto HD/4k/8k لـ YouTube™ - YouTube™ Auto HD"
+   },
+   "popupAutoText": {
+      "description": "Auto",
+      "message": "تلقائي"
+   },
+   "popupHeader": {
+      "description": "Popup header",
+      "message": "تعيين الجودة الافتراضية لـ YouTube™"
+   },
+   "short_name": {
+      "message": "Auto HD"
+   }
+}

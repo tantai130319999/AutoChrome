@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "设置您的默认YouTube™视频质量，支持高清分辨率"
+   },
+   "name": {
+      "message": "为YouTube™视频自动播放HD/4k/8k模式 - YouTube™ Auto HD"
+   },
+   "popupAutoText": {
+      "description": "Auto",
+      "message": "自动"
+   },
+   "popupHeader": {
+      "description": "Popup header",
+      "message": "为YouTube™设置默认质量"
+   },
+   "short_name": {
+      "message": "Auto HD"
+   }
+}

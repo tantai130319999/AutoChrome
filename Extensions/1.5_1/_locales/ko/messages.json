@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "고해상도를 지원할 수 있도록 YouTube™ 비디오 품질을 초기로 설정하세요"
+   },
+   "name": {
+      "message": "YouTube™ 비디오 용 HD/4k/8k 모드로 자동 재생 - YouTube™ Auto HD"
+   },
+   "popupAutoText": {
+      "description": "Auto",
+      "message": "오토매틱"
+   },
+   "popupHeader": {
+      "description": "Popup header",
+      "message": "YouTube™을 위한 초기 품질"
+   },
+   "short_name": {
+      "message": "Auto HD"
+   }
+}

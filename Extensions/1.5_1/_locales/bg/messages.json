@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "Задайте качеството на видеото по подразбиране за YouTube™, поддържащо High Definition резолюция"
+   },
+   "name": {
+      "message": "Auto HD/4k/8k за YouTube™ - YouTube™ Auto HD"
+   },
+   "popupAutoText": {
+      "description": "Auto",
+      "message": "автоматичен"
+   },
+   "popupHeader": {
+      "description": "Popup header",
+      "message": "Задайте качеството по подразбиране за YouTube™"
+   },
+   "short_name": {
+      "message": "Auto HD"
+   }
+}

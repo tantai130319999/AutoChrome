@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "Wählen Sie die Standardqualität für YouTube™, mit Unterstützung für HD/4k/8k-Auflösung"
+   },
+   "name": {
+      "message": "Auto HD/4k/8k für YouTube™ - YouTube™ Auto HD"
+   },
+   "popupAutoText": {
+      "description": "Auto",
+      "message": "Automatik"
+   },
+   "popupHeader": {
+      "description": "Popup header",
+      "message": "Wählen Sie die Standardqualität für YouTube™"
+   },
+   "short_name": {
+      "message": "Auto HD"
+   }
+}

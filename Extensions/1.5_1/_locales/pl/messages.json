@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "Ustaw domyślną jakość odtwarzania wideo w serwisie YouTube™, który obsługuje rozdzielczość HD"
+   },
+   "name": {
+      "message": "Auto HD/4k/8k na YouTube™ - YouTube™ Auto HD"
+   },
+   "popupAutoText": {
+      "description": "Auto",
+      "message": "Automatyczny"
+   },
+   "popupHeader": {
+      "description": "Popup header",
+      "message": "Ustaw domyślną jakość w serwisie YouTube™"
+   },
+   "short_name": {
+      "message": "Auto HD"
+   }
+}

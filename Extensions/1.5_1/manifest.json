@@ -1,0 +1,42 @@
+{
+   "applications": {
+      "gecko": {
+         "id": "{4cf120ba-c67a-47a9-9c99-7ab813d08379}",
+         "strict_min_version": "52.0a2"
+      }
+   },
+   "background": {
+      "scripts": [ "lib/browser-polyfill.min.js", "utils.js", "browser-action.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "images/hd_128.png",
+         "19": "images/hd_128.png",
+         "38": "images/hd_128.png"
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "__MSG_name__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [  ],
+      "js": [ "lib/browser-polyfill.min.js", "utils.js", "content/embedded-frame-js-flag.js", "content/yt-auto-hd.js", "content.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "differential_fingerprint": "1.7eeb4bc1b4db1d952fadfcda37a0f2d22f0afd99e5c3b239a9e1b3282318119b",
+   "icons": {
+      "128": "images/hd_128.png",
+      "16": "images/hd_128.png",
+      "48": "images/hd_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkPpzZ2cBsIUwwUFqPlQ4xwtVxseGgT+iQ4MI06ceYbgHMeWdzUgg6BSRM8IcmfPWqxNsEx4LNi85eYO/6JlGqvTqvp+Te8RoeVrLZfQk51DYyBI7SEB3X5lBqK/Jnutl6E2p1AkwJ8ia7w3ENHlqaXdo+PD7fKl2tVY9W1W5VY9ET2UFAGxSoszawOHWAPzp9ZY3f/0sWs0VPm/MUCuiNpY/czsBuClXu+woSLmo4Ssy/A/qSuKpzB85MgyIxqUtllImID92J/DYuZeao2aqyIvg67zetP3AVr2Pg92udN6qTZlRKw5j6X3xIVMd3hZfku6Bx+F3/zdVUJi0Lm9mpwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "tabs", "\u003Call_urls>", "storage" ],
+   "short_name": "__MSG_short_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.05"
+}

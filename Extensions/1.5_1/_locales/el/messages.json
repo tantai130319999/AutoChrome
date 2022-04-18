@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "Ορίστε την προεπιλεγμένη σας ποιότητα βίντεο για το YouTube™, που υποστηρίζει την ανάλυση Υψηλής Ευκρίνειας"
+   },
+   "name": {
+      "message": "Auto HD/4k/8k για το YouTube™ - YouTube™ Auto HD"
+   },
+   "popupAutoText": {
+      "description": "Auto",
+      "message": "Αυτόματο"
+   },
+   "popupHeader": {
+      "description": "Popup header",
+      "message": "Ορίστε την προεπιλεγμένη ποιότητα για το YouTube™"
+   },
+   "short_name": {
+      "message": "Auto HD"
+   }
+}

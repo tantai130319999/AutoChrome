@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "Bestem standardkvaliteten for YouTube™, som støtter HD-oppløsning"
+   },
+   "name": {
+      "message": "Auto HD/4k/8k for YouTube™ - YouTube™ Auto HD"
+   },
+   "popupAutoText": {
+      "description": "Auto",
+      "message": "Automatisk"
+   },
+   "popupHeader": {
+      "description": "Popup header",
+      "message": "Bestem standardkvaliteten for YouTube™"
+   },
+   "short_name": {
+      "message": "Auto HD/4k/8k for YouTube™"
+   }
+}

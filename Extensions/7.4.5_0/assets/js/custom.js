@@ -1,0 +1,1 @@
+ratingPlugin.init("ratings",(n,t)=>{ratingPlugin.setRating(n,3.2)});const optionsBtn=document.getElementById("go-to-options");optionsBtn&&optionsBtn.addEventListener("click",n=>{n.preventDefault(),chrome.runtime.openOptionsPage?chrome.runtime.openOptionsPage():window.open(chrome.runtime.getURL("options.html"))});
